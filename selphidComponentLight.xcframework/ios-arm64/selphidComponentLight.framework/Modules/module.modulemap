@@ -1,0 +1,4 @@
+framework module selphidComponentLight {
+  header "selphidComponentLight-Swift.h"
+  requires objc
+}

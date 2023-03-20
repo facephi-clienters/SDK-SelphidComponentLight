@@ -1,0 +1,31 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name selphidComponentLight
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import FPhiSelphIDWidgetiOS
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import core
+import licenseCheckerComponent
+public class SelphIDController : core.IWidgetController<core.SelphIDConfigurationData> {
+  public var output: ((core.SdkResult<core.SelphIDResult>) -> Swift.Void)!
+  public var license: Swift.String
+  public init(viewController: UIKit.UIViewController)
+  override public func start()
+  override public func setup(data: core.SelphIDConfigurationData)
+  @objc deinit
+}
+extension selphidComponentLight.SelphIDController : core.ISelphIDController {
+  public func tokenize(data: Swift.String) -> core.SdkResult<Swift.String>
+  public func extraData(trackingConfigurationData: core.TrackingConfigurationData, completion: (core.SdkResult<Swift.String>) -> ())
+}
+extension selphidComponentLight.SelphIDController : FPhiSelphIDWidgetiOS.FPhiSelphIDWidgetProtocol {
+  @objc dynamic public func captureFinished()
+  @objc dynamic public func captureCancelled()
+  @objc dynamic public func captureTimeout()
+  @objc dynamic public func captureFailed(_ error: Swift.Error!)
+  @objc dynamic public func onEvent(_ time: Foundation.Date!, type: Swift.String!, info: Swift.String!)
+}
