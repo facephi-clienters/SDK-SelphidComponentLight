@@ -14,19 +14,19 @@
 		</data>
 		<key>Frameworks/core.framework/core</key>
 		<data>
-		5IjEqHNQfzw9vvY8mZtNDQSsrew=
+		UNg/bgExQ9xyfw+YlO93YFbk+eQ=
 		</data>
 		<key>Frameworks/licenseCheckerComponent.framework/Info.plist</key>
 		<data>
-		rmf2occUNMuBdzgkD/qQMn1vc+E=
+		neaKtfM+7J/uzQ/4T+RYISA+lHo=
 		</data>
 		<key>Frameworks/licenseCheckerComponent.framework/_CodeSignature/CodeResources</key>
 		<data>
-		kMn2kKwclBDYCFGEAI4j8hxC3jY=
+		vgdeOfcnJF4ixYo8MaDGsKdY1Zw=
 		</data>
 		<key>Frameworks/licenseCheckerComponent.framework/licenseCheckerComponent</key>
 		<data>
-		PDwWyiwIi9vRnemhnbX20YWfzII=
+		/PH7cvltn52dBlPndEhkWqARsx0=
 		</data>
 		<key>Frameworks/licensingLite.framework/Info.plist</key>
 		<data>
@@ -97,28 +97,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ekv23dWqnsBJuXs7sE4phdpXf862Z5VjdfEJ5A8NL5g=
+			6zOsLiYpOSjbnlpmmIUhd0tuFf5T9XXv0BYdNUwaPb4=
 			</data>
 		</dict>
 		<key>Frameworks/licenseCheckerComponent.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PrVtC+/X7+UCv4Wv/kQlzXG6FKAFKwfAccIRmfnNpSY=
+			/QCZpf+SB72OXhD9VmqVeMkA6LT6CZ0+dM6vEQcipUw=
 			</data>
 		</dict>
 		<key>Frameworks/licenseCheckerComponent.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oUGvDDlE9G6elKIWgs7G+YcP1AvtBZBbe0Id1CiJp5I=
+			sqN60kkXNQuo0DDwbbId7inYsAZXnuTx7nXxTXTPC6E=
 			</data>
 		</dict>
 		<key>Frameworks/licenseCheckerComponent.framework/licenseCheckerComponent</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e2859qRKF1JtQ6j+iVYn7qTFDgMwjTpjMLifc92XOFI=
+			/c7BNCt4EpjfLDIwOIZlYm6gdIYbmjqjeDzoTW8QJXg=
 			</data>
 		</dict>
 		<key>Frameworks/licensingLite.framework/Info.plist</key>
