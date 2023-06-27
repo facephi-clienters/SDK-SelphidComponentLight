@@ -230,6 +230,8 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import FPhiSelphIDWidgetiOS;
+@import ObjectiveC;
 #endif
 
 #endif
@@ -250,6 +252,25 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
+
+SWIFT_CLASS("_TtC21selphidComponentLight17SelphIDController")
+@interface SelphIDController : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+@class NSDate;
+@class NSString;
+
+@interface SelphIDController (SWIFT_EXTENSION(selphidComponentLight)) <FPhiSelphIDWidgetProtocol>
+- (void)CaptureFinished;
+- (void)CaptureCancelled;
+- (void)CaptureTimeout;
+- (void)CaptureFailed:(NSError * _Null_unspecified)error;
+- (void)onEvent:(NSDate * _Null_unspecified)time type:(NSString * _Null_unspecified)type info:(NSString * _Null_unspecified)info;
+@end
+
 #endif
 #if defined(__cplusplus)
 #endif
@@ -490,6 +511,8 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import FPhiSelphIDWidgetiOS;
+@import ObjectiveC;
 #endif
 
 #endif
@@ -510,6 +533,25 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
+
+SWIFT_CLASS("_TtC21selphidComponentLight17SelphIDController")
+@interface SelphIDController : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+@class NSDate;
+@class NSString;
+
+@interface SelphIDController (SWIFT_EXTENSION(selphidComponentLight)) <FPhiSelphIDWidgetProtocol>
+- (void)CaptureFinished;
+- (void)CaptureCancelled;
+- (void)CaptureTimeout;
+- (void)CaptureFailed:(NSError * _Null_unspecified)error;
+- (void)onEvent:(NSDate * _Null_unspecified)time type:(NSString * _Null_unspecified)type info:(NSString * _Null_unspecified)info;
+@end
+
 #endif
 #if defined(__cplusplus)
 #endif

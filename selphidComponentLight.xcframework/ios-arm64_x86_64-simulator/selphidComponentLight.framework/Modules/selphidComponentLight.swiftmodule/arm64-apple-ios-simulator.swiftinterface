@@ -10,17 +10,59 @@ import _Concurrency
 import _StringProcessing
 import core
 import licenseCheckerComponent
-public class SelphIDController : core.IWidgetController<core.SelphIDConfigurationData> {
-  public var output: ((core.SdkResult<core.SelphIDResult>) -> Swift.Void)!
+public struct SelphIDConfigurationData {
+  public var debug: Swift.Bool?
+  public var wizardMode: Swift.Bool?
+  public var showResultAfterCapture: Swift.Bool?
+  public var showTutorial: Swift.Bool?
+  public var showTutorialOnly: Swift.Bool?
+  public var scanMode: selphidComponentLight.SelphIDScanMode
+  public var specificData: Swift.String?
+  public var fullscreen: Swift.Bool?
+  public var tokenImageQuality: Swift.Float?
+  public var locale: Swift.String?
+  public var documentType: selphidComponentLight.SelphIDDocumentType
+  public var documentSide: selphidComponentLight.SelphIDDocumentSide
+  public var timeout: selphidComponentLight.SelphIDTimeout
+  public var generateRawImages: Swift.Bool?
+  public var translationsContent: Swift.String?
+  public var viewsContent: Swift.String?
+  public var documentModels: Swift.String?
+  public var resourcesPath: Swift.String
+  public var videoFilename: Swift.String?
+  public var tokenPreviousCaptureData: Swift.String?
+  public var params: [Swift.String : Swift.String]?
+  public init()
+}
+public enum SelphIDScanMode {
+  case MODE_GENERIC
+  case MODE_SPECIFIC
+  case MODE_SEARCH
+  public static func == (a: selphidComponentLight.SelphIDScanMode, b: selphidComponentLight.SelphIDScanMode) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum SelphIDDocumentSide : Swift.String {
+  case FRONT
+  case BACK
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc public class SelphIDController : ObjectiveC.NSObject {
   public var license: Swift.String
-  public init(viewController: UIKit.UIViewController)
-  override public func start()
-  override public func setup(data: core.SelphIDConfigurationData)
+  public var trackingController: core.ITrackingController?
+  public var behaviorController: core.IBehaviorController?
+  public init(data: selphidComponentLight.SelphIDConfigurationData, output: @escaping (core.SdkResult<selphidComponentLight.SelphIDResult>) -> (), viewController: UIKit.UIViewController)
   @objc deinit
 }
-extension selphidComponentLight.SelphIDController : core.ISelphIDController {
+extension selphidComponentLight.SelphIDController : core.ITrackMethodableController {
+  public func start(operationController: core.IOperationableController)
   public func tokenize(data: Swift.String) -> core.SdkResult<Swift.String>
-  public func extraData(trackingConfigurationData: core.TrackingConfigurationData, completion: (core.SdkResult<Swift.String>) -> ())
 }
 extension selphidComponentLight.SelphIDController : FPhiSelphIDWidgetiOS.FPhiSelphIDWidgetProtocol {
   @objc dynamic public func captureFinished()
@@ -29,3 +71,66 @@ extension selphidComponentLight.SelphIDController : FPhiSelphIDWidgetiOS.FPhiSel
   @objc dynamic public func captureFailed(_ error: Swift.Error!)
   @objc dynamic public func onEvent(_ time: Foundation.Date!, type: Swift.String!, info: Swift.String!)
 }
+public struct SelphIDResult {
+  public var ocrResults: [Swift.String : Swift.String]?
+  public var tokenBackDocument: Swift.String
+  public var tokenFrontDocument: Swift.String
+  public var tokenFaceImage: Swift.String
+  public var tokenOCR: Swift.String
+  public var documentCaptured: Swift.String?
+  public var matchingSidesScore: Swift.Double
+  public var captureProgress: Swift.Int
+  public var tokenRawFrontDocument: Swift.String?
+  public var tokenRawBackDocument: Swift.String?
+  public var frontDocumentImage: Swift.String
+  public var faceImage: Swift.String
+  public var backDocumentImage: Swift.String
+  public var rawFrontDocument: Swift.String?
+  public var rawFrontDocumentData: Foundation.Data?
+  public var rawBackDocument: Swift.String?
+  public var rawBackDocumentData: Foundation.Data?
+  public var frontDocumentData: Foundation.Data?
+  public var backDocumentData: Foundation.Data?
+  public var faceImageData: Foundation.Data?
+  public var signatureImage: Foundation.Data?
+  public var fingerprintImage: Foundation.Data?
+  public var personalData: core.PersonalData?
+  public init()
+}
+public enum SelphIDDocumentType : Swift.UInt, Swift.CaseIterable {
+  case ID_CARD
+  case PASSPORT
+  case DRIVERS_LICENSE
+  case FOREIGN_CARD
+  case CREDIT_CARD
+  case CUSTOM
+  public init?(rawValue: Swift.UInt)
+  public typealias AllCases = [selphidComponentLight.SelphIDDocumentType]
+  public typealias RawValue = Swift.UInt
+  public static var allCases: [selphidComponentLight.SelphIDDocumentType] {
+    get
+  }
+  public var rawValue: Swift.UInt {
+    get
+  }
+}
+public enum SelphIDTimeout {
+  case SHORT
+  case MEDIUM
+  case LONG
+  public static func == (a: selphidComponentLight.SelphIDTimeout, b: selphidComponentLight.SelphIDTimeout) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension selphidComponentLight.SelphIDScanMode : Swift.Equatable {}
+extension selphidComponentLight.SelphIDScanMode : Swift.Hashable {}
+extension selphidComponentLight.SelphIDDocumentSide : Swift.Equatable {}
+extension selphidComponentLight.SelphIDDocumentSide : Swift.Hashable {}
+extension selphidComponentLight.SelphIDDocumentSide : Swift.RawRepresentable {}
+extension selphidComponentLight.SelphIDDocumentType : Swift.Equatable {}
+extension selphidComponentLight.SelphIDDocumentType : Swift.Hashable {}
+extension selphidComponentLight.SelphIDDocumentType : Swift.RawRepresentable {}
+extension selphidComponentLight.SelphIDTimeout : Swift.Equatable {}
+extension selphidComponentLight.SelphIDTimeout : Swift.Hashable {}
