@@ -6947,7 +6947,7 @@
       "kind": "StringLiteral",
       "offset": 226,
       "length": 7,
-      "value": "\"1.4.0\""
+      "value": "\"1.4.2\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Constants.swift",

@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		yPvfV7CNrg8R+iIIuxPLTvNbiY0=
+		7C52t/j6l0/BGyH52N+/KVS0cK0=
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		E+sqE8ysC8C0St9+zaaUujz1PuU=
+		RSHwljM81XfPolb+L2t2tIoqwLU=
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		yPvfV7CNrg8R+iIIuxPLTvNbiY0=
+		7C52t/j6l0/BGyH52N+/KVS0cK0=
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AOLsA6BN7VqRNVScHTL5Zp/Q2OI=
+		FBMEhnsc5/u4gRYQpQX5Sbqq8gk=
 		</data>
 		<key>fphi-selphid-widget-resources-selphid-1.0.zip</key>
 		<data>
@@ -147,7 +147,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8+yBCnUiG9CNE8g/t00h1BMRyqPx9OdnQt3w05qTcI8=
+			vHSwtY5PsdhD9gzhoSsm2ONQO0Zfk1e+kjAJ/4i9quA=
 			</data>
 		</dict>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -175,14 +175,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			db+U7AO37yUYvU6PfgSbMsHViauO3p93hYen0JqSPeI=
+			eBG2FPUNtKphBdNGy8lljwMvGhvySrL0Mc09bG3daDQ=
 			</data>
 		</dict>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8+yBCnUiG9CNE8g/t00h1BMRyqPx9OdnQt3w05qTcI8=
+			vHSwtY5PsdhD9gzhoSsm2ONQO0Zfk1e+kjAJ/4i9quA=
 			</data>
 		</dict>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -210,7 +210,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fv2ePgJoGeNAMTJ8hKQ2+EpJjVSBghndi50EHxoURBo=
+			IVfG9TWFwqM9XEU7n3pFomQ6Unz5purGmOM10uWB3gk=
 			</data>
 		</dict>
 		<key>fphi-selphid-widget-resources-selphid-1.0.zip</key>
