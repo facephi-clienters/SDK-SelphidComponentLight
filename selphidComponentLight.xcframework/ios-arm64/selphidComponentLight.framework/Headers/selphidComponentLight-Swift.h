@@ -271,6 +271,7 @@ SWIFT_CLASS("_TtC21selphidComponentLight17SelphIDController")
 - (void)onEvent:(NSDate * _Null_unspecified)time type:(NSString * _Null_unspecified)type info:(NSString * _Null_unspecified)info;
 @end
 
+
 #endif
 #if defined(__cplusplus)
 #endif
