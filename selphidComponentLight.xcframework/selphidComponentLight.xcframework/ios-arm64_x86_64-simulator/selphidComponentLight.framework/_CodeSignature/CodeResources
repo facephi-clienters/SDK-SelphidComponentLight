@@ -30,11 +30,11 @@
 		</data>
 		<key>Headers/selphidComponentLight-Swift.h</key>
 		<data>
-		1Asiegules6cEjC1sI8nYPiCLgI=
+		LGuZpf6T5Yc/q24+D7jVUfDbI2g=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xJXPgoYZEM2L49k5jM7MF4Fp97s=
+		0HxkVBScznFjda4Ttw8a7eRmpbA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,43 +42,43 @@
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Ie0Af2oGeDwSy6n0aSajERYMISI=
+		AmWBgxYQ8d0RXQn7KxFVG9ueZ1M=
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Ny3pLANsSZZTMnjCLfM5gr2vWXQ=
+		1GLm4CePCxqDMM5MtGTaTTFTzTw=
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		fAS4YB3oLd/HnpM74pxVG0oXh+g=
+		WUHoWBGv+8YYSjErJZFSr0JmyNQ=
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Ny3pLANsSZZTMnjCLfM5gr2vWXQ=
+		1GLm4CePCxqDMM5MtGTaTTFTzTw=
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		IEejv0gPfuRmf8Hdy8kjpgEgK6I=
+		CZJiuR8QZiLCR8FDQQT/DuFSWpU=
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Ie0Af2oGeDwSy6n0aSajERYMISI=
+		AmWBgxYQ8d0RXQn7KxFVG9ueZ1M=
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		MGVL/dSrHCEe1+oRXOylPLQs544=
+		cHLmpPi8SMjz5AcDMyU4RPvOqSk=
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ST5ugqSp7fxw20c68xk/8lwW+JQ=
+		kSrElyJb1Ksr+ARaeNDAGk9HbPg=
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MGVL/dSrHCEe1+oRXOylPLQs544=
+		cHLmpPi8SMjz5AcDMyU4RPvOqSk=
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		85stISkVJXUHBmRXTg+p//TDlqQ=
+		s3ZASsHQL3+7gIFoYZgAunB1enk=
 		</data>
 		<key>fphi-selphid-widget-resources-selphid-1.0.zip</key>
 		<data>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6hsfrY+lyK7ZMxgHVEAdQ6ml9s9JxgNMog1tTugjvE0=
+			R22yYCbfK/VWTQTAQ+a7//45fefFsH6nTgyGOv/iwz4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -147,70 +147,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1x77Ycp5OvAD3+lZkgMjXds8UkowNmBDqD2ZANx2IOw=
+			6ExJPej89wzuGaeNtXWLcphliCpK3V8ovV4qeXcLhtA=
 			</data>
 		</dict>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hQ2JdPaIN1de54bK8KWeYBz5ioWmOBUQ2y24dHacsDg=
+			Ahm1D9txStzrj4ImDrh89UXoJnNert3YSoKg2uhIIxs=
 			</data>
 		</dict>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DGsu5hBElH7loN3kOk8Xk9DfBIrsSvvohWwUTnZWLL8=
+			fljEf6O2L4Rw4GQ+1daBhRqhkVvwRkZk5gdF9z5d9U8=
 			</data>
 		</dict>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hQ2JdPaIN1de54bK8KWeYBz5ioWmOBUQ2y24dHacsDg=
+			Ahm1D9txStzrj4ImDrh89UXoJnNert3YSoKg2uhIIxs=
 			</data>
 		</dict>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JXej0eqXDpf9CXahuaojlwqmwSVoY10OUx9gXkG1jGU=
+			kCwSUv122+iuUMBO27aNx741bM53RbLMtz9wGwMJdtk=
 			</data>
 		</dict>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1x77Ycp5OvAD3+lZkgMjXds8UkowNmBDqD2ZANx2IOw=
+			6ExJPej89wzuGaeNtXWLcphliCpK3V8ovV4qeXcLhtA=
 			</data>
 		</dict>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xVCuN/hfoJwJcfo4CFKZN17lRMaCret+/+U6U97f57k=
+			vpVQhcgPKFOOkoLX/t9Nh7IGqt+1PUfq65flicqr7rE=
 			</data>
 		</dict>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SYrfLwjGd/4fWnRK5E+crQZvL7MUbRhz1U4Q4u92iMo=
+			v6tIh0Hk8WoP/t/uIwnHtDS/34l4tDdx1ZNdhWPCndQ=
 			</data>
 		</dict>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xVCuN/hfoJwJcfo4CFKZN17lRMaCret+/+U6U97f57k=
+			vpVQhcgPKFOOkoLX/t9Nh7IGqt+1PUfq65flicqr7rE=
 			</data>
 		</dict>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g9NtXurqq/XQDpG6PjZF77ZR4JGU4I3rwDv+3tApvsQ=
+			qbiKkqPLBVgk4wl9VemPnZpMVYR/A4+wXllNstaDDTU=
 			</data>
 		</dict>
 		<key>fphi-selphid-widget-resources-selphid-1.0.zip</key>

@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name selphidComponentLight
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import FPhiSelphIDWidgetiOS
@@ -8,6 +8,7 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 import core
 import licenseCheckerComponent
 public struct SelphIDConfigurationData {
@@ -55,20 +56,20 @@ public enum SelphIDDocumentSide : Swift.String {
 }
 @objc public class SelphIDController : ObjectiveC.NSObject {
   public var license: Swift.String
-  public var trackingController: core.ITrackingController?
-  public var behaviorController: core.IBehaviorController?
+  public var trackingController: (any core.ITrackingController)?
+  public var behaviorController: (any core.IBehaviorController)?
   public init(data: selphidComponentLight.SelphIDConfigurationData, output: @escaping (core.SdkResult<selphidComponentLight.SelphIDResult>) -> (), viewController: UIKit.UIViewController)
   @objc deinit
 }
 extension selphidComponentLight.SelphIDController : core.ITrackMethodableController {
-  public func start(operationController: core.IOperationableController)
+  public func start(operationController: any core.IOperationableController)
   public func tokenize(data: Swift.String) -> core.SdkResult<Swift.String>
 }
 extension selphidComponentLight.SelphIDController : FPhiSelphIDWidgetiOS.FPhiSelphIDWidgetProtocol {
   @objc dynamic public func captureFinished()
   @objc dynamic public func captureCancelled()
   @objc dynamic public func captureTimeout()
-  @objc dynamic public func captureFailed(_ error: Swift.Error!)
+  @objc dynamic public func captureFailed(_ error: (any Swift.Error)!)
   @objc dynamic public func onEvent(_ time: Foundation.Date!, type: Swift.String!, info: Swift.String!)
 }
 public struct SelphIDResult {

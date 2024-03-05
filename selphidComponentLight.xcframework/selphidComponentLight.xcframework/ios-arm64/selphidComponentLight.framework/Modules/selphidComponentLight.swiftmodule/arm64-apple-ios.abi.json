@@ -3475,13 +3475,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ITrackableController",
-            "printedName": "ITrackableController",
-            "usr": "s:4core20ITrackableControllerP",
-            "mangledName": "$s4core20ITrackableControllerP"
-          },
-          {
-            "kind": "Conformance",
             "name": "IMethodableController",
             "printedName": "IMethodableController",
             "usr": "s:4core21IMethodableControllerP",
@@ -3489,10 +3482,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "IBehaviorableController",
-            "printedName": "IBehaviorableController",
-            "usr": "s:4core23IBehaviorableControllerP",
-            "mangledName": "$s4core23IBehaviorableControllerP"
+            "name": "ITrackableController",
+            "printedName": "ITrackableController",
+            "usr": "s:4core20ITrackableControllerP",
+            "mangledName": "$s4core20ITrackableControllerP"
           },
           {
             "kind": "Conformance",
@@ -3507,6 +3500,13 @@
             "printedName": "IStartableController",
             "usr": "s:4core20IStartableControllerP",
             "mangledName": "$s4core20IStartableControllerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IBehaviorableController",
+            "printedName": "IBehaviorableController",
+            "usr": "s:4core23IBehaviorableControllerP",
+            "mangledName": "$s4core23IBehaviorableControllerP"
           },
           {
             "kind": "Conformance",
@@ -6922,6 +6922,244 @@
       "value": "\"Front\/MRZ\/MrzText\""
     },
     {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 1549,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 1623,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 1689,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 1743,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 1813,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2036,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2114,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2209,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2291,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2384,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2480,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 2574,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2719,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2870,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3009,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3165,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3329,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3493,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3661,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 4102,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 4191,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 4273,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 4357,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 4431,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 4507,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 4584,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 4656,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 4738,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 4822,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 4904,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 4978,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 5051,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 5132,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 5246,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
       "kind": "StringLiteral",
       "offset": 901,
@@ -6938,9 +7176,121 @@
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/SelphIDController.swift",
       "kind": "StringLiteral",
+      "offset": 1613,
+      "length": 56,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/SelphIDController.swift",
+      "kind": "StringLiteral",
+      "offset": 1645,
+      "length": 2,
+      "value": "\" -- Resources not found\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/SelphIDController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1936,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/SelphIDController.swift",
+      "kind": "StringLiteral",
       "offset": 208,
       "length": 17,
       "value": "\"selphidComponentLight.SelphIDController\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/SelphIDController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4834,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/SelphIDController.swift",
+      "kind": "StringLiteral",
+      "offset": 5194,
+      "length": 33,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/SelphIDController.swift",
+      "kind": "StringLiteral",
+      "offset": 5226,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/SelphIDController.swift",
+      "kind": "StringLiteral",
+      "offset": 5229,
+      "length": 41,
+      "value": "\"Error selphIDWidget hasn't been started\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/SelphIDController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5677,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/SelphIDController.swift",
+      "kind": "StringLiteral",
+      "offset": 5939,
+      "length": 33,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/SelphIDController.swift",
+      "kind": "StringLiteral",
+      "offset": 5971,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/SelphIDController.swift",
+      "kind": "StringLiteral",
+      "offset": 5974,
+      "length": 41,
+      "value": "\"Error selphIDWidget hasn't been started\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/SelphIDController.swift",
+      "kind": "StringLiteral",
+      "offset": 6832,
+      "length": 40,
+      "value": "\"OnEvent: \""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/SelphIDController.swift",
+      "kind": "StringLiteral",
+      "offset": 6852,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/SelphIDController.swift",
+      "kind": "StringLiteral",
+      "offset": 6855,
+      "length": 1,
+      "value": "\" - \""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/SelphIDController.swift",
+      "kind": "StringLiteral",
+      "offset": 6868,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/SelphIDController.swift",
+      "kind": "StringLiteral",
+      "offset": 6871,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Constants.swift",
