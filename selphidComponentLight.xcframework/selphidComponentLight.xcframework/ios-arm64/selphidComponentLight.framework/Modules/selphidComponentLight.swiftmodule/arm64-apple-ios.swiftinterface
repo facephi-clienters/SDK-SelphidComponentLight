@@ -10,6 +10,27 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import core
 import licenseCheckerComponent
+extension Foundation.Bundle {
+  public static var selphidBundle: Foundation.Bundle
+}
+extension selphidComponentLight.R {
+  public enum Animation : Swift.String, Swift.CaseIterable {
+    case selphid_anim_tuto_id
+    case selphid_anim_tuto_passport
+    case selphid_anim_tip_1
+    case selphid_anim_tip_2
+    case selphid_anim_tip_3
+    public init?(rawValue: Swift.String)
+    public typealias AllCases = [selphidComponentLight.R.Animation]
+    public typealias RawValue = Swift.String
+    public static var allCases: [selphidComponentLight.R.Animation] {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
 public struct SelphIDConfigurationData : Swift.Codable {
   public var resourcesPath: Swift.String?
   public var wizardMode: Swift.Bool?
@@ -106,6 +127,17 @@ public enum SelphIDError : Swift.String {
     get
   }
 }
+public protocol ThemeSelphidProtocol {
+  var name: Swift.String { get }
+  var animations: [selphidComponentLight.R.Animation : Swift.String] { get }
+}
+extension selphidComponentLight.ThemeSelphidProtocol {
+  public var animations: [selphidComponentLight.R.Animation : Swift.String] {
+    get
+  }
+}
+public enum R {
+}
 public struct SelphIDResult {
   public var ocrResults: [Swift.String : Swift.String]?
   public var tokenBackDocument: Swift.String
@@ -159,6 +191,9 @@ public enum SelphIDDocumentType : Swift.String, Swift.CaseIterable, Swift.Codabl
     get
   }
 }
+public enum ThemeSelphidManager {
+  public static func setup(theme: any selphidComponentLight.ThemeSelphidProtocol)
+}
 public enum SelphIDTimeout : Swift.String, Swift.Codable {
   case SHORT
   case MEDIUM
@@ -169,6 +204,9 @@ public enum SelphIDTimeout : Swift.String, Swift.Codable {
     get
   }
 }
+extension selphidComponentLight.R.Animation : Swift.Equatable {}
+extension selphidComponentLight.R.Animation : Swift.Hashable {}
+extension selphidComponentLight.R.Animation : Swift.RawRepresentable {}
 extension selphidComponentLight.SelphIDScanMode : Swift.Equatable {}
 extension selphidComponentLight.SelphIDScanMode : Swift.Hashable {}
 extension selphidComponentLight.SelphIDScanMode : Swift.RawRepresentable {}

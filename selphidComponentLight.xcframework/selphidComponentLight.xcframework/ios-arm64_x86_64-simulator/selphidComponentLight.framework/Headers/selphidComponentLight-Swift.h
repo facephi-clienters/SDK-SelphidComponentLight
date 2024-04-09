@@ -300,6 +300,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
+
 SWIFT_CLASS("_TtC21selphidComponentLight17SelphIDController")
 @interface SelphIDController : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -628,6 +629,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+
 
 SWIFT_CLASS("_TtC21selphidComponentLight17SelphIDController")
 @interface SelphIDController : NSObject
