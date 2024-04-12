@@ -9672,7 +9672,7 @@
       "kind": "StringLiteral",
       "offset": 277,
       "length": 7,
-      "value": "\"2.0.0\""
+      "value": "\"2.0.1\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",

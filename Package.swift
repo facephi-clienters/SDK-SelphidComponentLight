@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "git@github.com:facephi-clienters/selphidnoml-framework.git", from: "1.23.4"),
+        .package(url: "git@github.com:facephi-clienters/selphidnoml-framework.git", .upToNextMinor(from: "1.24.0")),
         .package(url: "git@github.com:facephi-clienters/SDK-CorePackage-SPM.git", .upToNextMinor(from: "2.0.0"))
     ],
     targets: [
