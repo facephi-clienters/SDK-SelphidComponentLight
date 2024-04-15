@@ -16,6 +16,26 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "selphidComponentLight",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "selphidComponentLight",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "core",
         "printedName": "core",
         "declKind": "Import",
@@ -62,32 +82,33 @@
         "children": [
           {
             "kind": "Var",
-            "name": "debug",
-            "printedName": "debug",
+            "name": "resourcesPath",
+            "printedName": "resourcesPath",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Bool?",
+                "printedName": "Swift.String?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV5debugSbSgvp",
-            "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV5debugSbSgvp",
+            "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV13resourcesPathSSSgvp",
+            "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV13resourcesPathSSSgvp",
             "moduleName": "selphidComponentLight",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -99,21 +120,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Bool?",
+                    "printedName": "Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV5debugSbSgvg",
-                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV5debugSbSgvg",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV13resourcesPathSSSgvg",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV13resourcesPathSSSgvg",
                 "moduleName": "selphidComponentLight",
                 "implicit": true,
                 "accessorKind": "get"
@@ -131,21 +152,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Bool?",
+                    "printedName": "Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV5debugSbSgvs",
-                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV5debugSbSgvs",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV13resourcesPathSSSgvs",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV13resourcesPathSSSgvs",
                 "moduleName": "selphidComponentLight",
                 "implicit": true,
                 "accessorKind": "set"
@@ -162,8 +183,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV5debugSbSgvM",
-                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV5debugSbSgvM",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV13resourcesPathSSSgvM",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV13resourcesPathSSSgvM",
                 "moduleName": "selphidComponentLight",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -502,116 +523,6 @@
           },
           {
             "kind": "Var",
-            "name": "tutorialOnly",
-            "printedName": "tutorialOnly",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV12tutorialOnlySbSgvp",
-            "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV12tutorialOnlySbSgvp",
-            "moduleName": "selphidComponentLight",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV12tutorialOnlySbSgvg",
-                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV12tutorialOnlySbSgvg",
-                "moduleName": "selphidComponentLight",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV12tutorialOnlySbSgvs",
-                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV12tutorialOnlySbSgvs",
-                "moduleName": "selphidComponentLight",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV12tutorialOnlySbSgvM",
-                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV12tutorialOnlySbSgvM",
-                "moduleName": "selphidComponentLight",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "scanMode",
             "printedName": "scanMode",
             "children": [
@@ -808,8 +719,94 @@
           },
           {
             "kind": "Var",
-            "name": "fullscreen",
-            "printedName": "fullscreen",
+            "name": "documentType",
+            "printedName": "documentType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SelphIDDocumentType",
+                "printedName": "selphidComponentLight.SelphIDDocumentType",
+                "usr": "s:21selphidComponentLight19SelphIDDocumentTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV12documentTypeAA0d10IDDocumentH0Ovp",
+            "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV12documentTypeAA0d10IDDocumentH0Ovp",
+            "moduleName": "selphidComponentLight",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SelphIDDocumentType",
+                    "printedName": "selphidComponentLight.SelphIDDocumentType",
+                    "usr": "s:21selphidComponentLight19SelphIDDocumentTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV12documentTypeAA0d10IDDocumentH0Ovg",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV12documentTypeAA0d10IDDocumentH0Ovg",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SelphIDDocumentType",
+                    "printedName": "selphidComponentLight.SelphIDDocumentType",
+                    "usr": "s:21selphidComponentLight19SelphIDDocumentTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV12documentTypeAA0d10IDDocumentH0Ovs",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV12documentTypeAA0d10IDDocumentH0Ovs",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV12documentTypeAA0d10IDDocumentH0OvM",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV12documentTypeAA0d10IDDocumentH0OvM",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "showDiagnostic",
+            "printedName": "showDiagnostic",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -827,8 +824,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV10fullscreenSbSgvp",
-            "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV10fullscreenSbSgvp",
+            "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV14showDiagnosticSbSgvp",
+            "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV14showDiagnosticSbSgvp",
             "moduleName": "selphidComponentLight",
             "declAttributes": [
               "HasInitialValue",
@@ -858,8 +855,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV10fullscreenSbSgvg",
-                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV10fullscreenSbSgvg",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV14showDiagnosticSbSgvg",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV14showDiagnosticSbSgvg",
                 "moduleName": "selphidComponentLight",
                 "implicit": true,
                 "accessorKind": "get"
@@ -890,8 +887,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV10fullscreenSbSgvs",
-                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV10fullscreenSbSgvs",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV14showDiagnosticSbSgvs",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV14showDiagnosticSbSgvs",
                 "moduleName": "selphidComponentLight",
                 "implicit": true,
                 "accessorKind": "set"
@@ -908,8 +905,229 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV10fullscreenSbSgvM",
-                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV10fullscreenSbSgvM",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV14showDiagnosticSbSgvM",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV14showDiagnosticSbSgvM",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV5debugSbSgvp",
+            "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV5debugSbSgvp",
+            "moduleName": "selphidComponentLight",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV5debugSbSgvg",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV5debugSbSgvg",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV5debugSbSgvs",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV5debugSbSgvs",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV5debugSbSgvM",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV5debugSbSgvM",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tutorialOnly",
+            "printedName": "tutorialOnly",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV12tutorialOnlySbSgvp",
+            "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV12tutorialOnlySbSgvp",
+            "moduleName": "selphidComponentLight",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV12tutorialOnlySbSgvg",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV12tutorialOnlySbSgvg",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV12tutorialOnlySbSgvs",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV12tutorialOnlySbSgvs",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV12tutorialOnlySbSgvM",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV12tutorialOnlySbSgvM",
                 "moduleName": "selphidComponentLight",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1130,92 +1348,6 @@
                 "declKind": "Accessor",
                 "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV6localeSSSgvM",
                 "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV6localeSSSgvM",
-                "moduleName": "selphidComponentLight",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "documentType",
-            "printedName": "documentType",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SelphIDDocumentType",
-                "printedName": "selphidComponentLight.SelphIDDocumentType",
-                "usr": "s:21selphidComponentLight19SelphIDDocumentTypeO"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV12documentTypeAA0d10IDDocumentH0Ovp",
-            "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV12documentTypeAA0d10IDDocumentH0Ovp",
-            "moduleName": "selphidComponentLight",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SelphIDDocumentType",
-                    "printedName": "selphidComponentLight.SelphIDDocumentType",
-                    "usr": "s:21selphidComponentLight19SelphIDDocumentTypeO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV12documentTypeAA0d10IDDocumentH0Ovg",
-                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV12documentTypeAA0d10IDDocumentH0Ovg",
-                "moduleName": "selphidComponentLight",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SelphIDDocumentType",
-                    "printedName": "selphidComponentLight.SelphIDDocumentType",
-                    "usr": "s:21selphidComponentLight19SelphIDDocumentTypeO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV12documentTypeAA0d10IDDocumentH0Ovs",
-                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV12documentTypeAA0d10IDDocumentH0Ovs",
-                "moduleName": "selphidComponentLight",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV12documentTypeAA0d10IDDocumentH0OvM",
-                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV12documentTypeAA0d10IDDocumentH0OvM",
                 "moduleName": "selphidComponentLight",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1836,8 +1968,160 @@
           },
           {
             "kind": "Var",
-            "name": "resourcesPath",
-            "printedName": "resourcesPath",
+            "name": "params",
+            "printedName": "params",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV6paramsSDyS2SGSgvp",
+            "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV6paramsSDyS2SGSgvp",
+            "moduleName": "selphidComponentLight",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV6paramsSDyS2SGSgvg",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV6paramsSDyS2SGSgvg",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV6paramsSDyS2SGSgvs",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV6paramsSDyS2SGSgvs",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV6paramsSDyS2SGSgvM",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV6paramsSDyS2SGSgvM",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "models",
+            "printedName": "models",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1855,8 +2139,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV13resourcesPathSSSgvp",
-            "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV13resourcesPathSSSgvp",
+            "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV6modelsSSSgvp",
+            "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV6modelsSSSgvp",
             "moduleName": "selphidComponentLight",
             "declAttributes": [
               "HasInitialValue",
@@ -1886,8 +2170,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV13resourcesPathSSSgvg",
-                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV13resourcesPathSSSgvg",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV6modelsSSSgvg",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV6modelsSSSgvg",
                 "moduleName": "selphidComponentLight",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1918,8 +2202,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV13resourcesPathSSSgvs",
-                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV13resourcesPathSSSgvs",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV6modelsSSSgvs",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV6modelsSSSgvs",
                 "moduleName": "selphidComponentLight",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1936,8 +2220,118 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV13resourcesPathSSSgvM",
-                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV13resourcesPathSSSgvM",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV6modelsSSSgvM",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV6modelsSSSgvM",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fullscreen",
+            "printedName": "fullscreen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV10fullscreenSbSgvp",
+            "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV10fullscreenSbSgvp",
+            "moduleName": "selphidComponentLight",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV10fullscreenSbSgvg",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV10fullscreenSbSgvg",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV10fullscreenSbSgvs",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV10fullscreenSbSgvs",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV10fullscreenSbSgvM",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV10fullscreenSbSgvM",
                 "moduleName": "selphidComponentLight",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2166,41 +2560,27 @@
           },
           {
             "kind": "Var",
-            "name": "params",
-            "printedName": "params",
+            "name": "vibrationEnabled",
+            "printedName": "vibrationEnabled",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[Swift.String : Swift.String]?",
+                "printedName": "Swift.Bool?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:SD"
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV6paramsSDyS2SGSgvp",
-            "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV6paramsSDyS2SGSgvp",
+            "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV16vibrationEnabledSbSgvp",
+            "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV16vibrationEnabledSbSgvp",
             "moduleName": "selphidComponentLight",
             "declAttributes": [
               "HasInitialValue",
@@ -2217,35 +2597,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "[Swift.String : Swift.String]?",
+                    "printedName": "Swift.Bool?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:SD"
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV6paramsSDyS2SGSgvg",
-                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV6paramsSDyS2SGSgvg",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV16vibrationEnabledSbSgvg",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV16vibrationEnabledSbSgvg",
                 "moduleName": "selphidComponentLight",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2263,35 +2629,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "[Swift.String : Swift.String]?",
+                    "printedName": "Swift.Bool?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:SD"
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV6paramsSDyS2SGSgvs",
-                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV6paramsSDyS2SGSgvs",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV16vibrationEnabledSbSgvs",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV16vibrationEnabledSbSgvs",
                 "moduleName": "selphidComponentLight",
                 "implicit": true,
                 "accessorKind": "set"
@@ -2308,8 +2660,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV6paramsSDyS2SGSgvM",
-                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV6paramsSDyS2SGSgvM",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV16vibrationEnabledSbSgvM",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV16vibrationEnabledSbSgvM",
                 "moduleName": "selphidComponentLight",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2351,7 +2703,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -2376,7 +2728,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -2763,6 +3115,43 @@
             "moduleName": "selphidComponentLight"
           },
           {
+            "kind": "Var",
+            "name": "ALL",
+            "printedName": "ALL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(selphidComponentLight.SelphIDDocumentSide.Type) -> selphidComponentLight.SelphIDDocumentSide",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SelphIDDocumentSide",
+                    "printedName": "selphidComponentLight.SelphIDDocumentSide",
+                    "usr": "s:21selphidComponentLight19SelphIDDocumentSideO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "selphidComponentLight.SelphIDDocumentSide.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SelphIDDocumentSide",
+                        "printedName": "selphidComponentLight.SelphIDDocumentSide",
+                        "usr": "s:21selphidComponentLight19SelphIDDocumentSideO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21selphidComponentLight19SelphIDDocumentSideO3ALLyA2CmF",
+            "mangledName": "$s21selphidComponentLight19SelphIDDocumentSideO3ALLyA2CmF",
+            "moduleName": "selphidComponentLight"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -3033,12 +3422,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "core.ITrackingController?",
+                "printedName": "(any core.ITrackingController)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ITrackingController",
-                    "printedName": "core.ITrackingController",
+                    "printedName": "any core.ITrackingController",
                     "usr": "s:4core19ITrackingControllerP"
                   }
                 ],
@@ -3064,12 +3453,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "core.ITrackingController?",
+                    "printedName": "(any core.ITrackingController)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ITrackingController",
-                        "printedName": "core.ITrackingController",
+                        "printedName": "any core.ITrackingController",
                         "usr": "s:4core19ITrackingControllerP"
                       }
                     ],
@@ -3096,12 +3485,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "core.ITrackingController?",
+                    "printedName": "(any core.ITrackingController)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "ITrackingController",
-                        "printedName": "core.ITrackingController",
+                        "printedName": "any core.ITrackingController",
                         "usr": "s:4core19ITrackingControllerP"
                       }
                     ],
@@ -3143,12 +3532,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "core.IBehaviorController?",
+                "printedName": "(any core.IBehaviorController)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "IBehaviorController",
-                    "printedName": "core.IBehaviorController",
+                    "printedName": "any core.IBehaviorController",
                     "usr": "s:4core19IBehaviorControllerP"
                   }
                 ],
@@ -3174,12 +3563,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "core.IBehaviorController?",
+                    "printedName": "(any core.IBehaviorController)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "IBehaviorController",
-                        "printedName": "core.IBehaviorController",
+                        "printedName": "any core.IBehaviorController",
                         "usr": "s:4core19IBehaviorControllerP"
                       }
                     ],
@@ -3206,12 +3595,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "core.IBehaviorController?",
+                    "printedName": "(any core.IBehaviorController)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "IBehaviorController",
-                        "printedName": "core.IBehaviorController",
+                        "printedName": "any core.IBehaviorController",
                         "usr": "s:4core19IBehaviorControllerP"
                       }
                     ],
@@ -3247,18 +3636,238 @@
           },
           {
             "kind": "Var",
+            "name": "statusController",
+            "printedName": "statusController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any core.IStatusController)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IStatusController",
+                    "printedName": "any core.IStatusController",
+                    "usr": "s:4core17IStatusControllerP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21selphidComponentLight17SelphIDControllerC16statusController4core07IStatusG0_pSgvp",
+            "mangledName": "$s21selphidComponentLight17SelphIDControllerC16statusController4core07IStatusG0_pSgvp",
+            "moduleName": "selphidComponentLight",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any core.IStatusController)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IStatusController",
+                        "printedName": "any core.IStatusController",
+                        "usr": "s:4core17IStatusControllerP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight17SelphIDControllerC16statusController4core07IStatusG0_pSgvg",
+                "mangledName": "$s21selphidComponentLight17SelphIDControllerC16statusController4core07IStatusG0_pSgvg",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any core.IStatusController)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IStatusController",
+                        "printedName": "any core.IStatusController",
+                        "usr": "s:4core17IStatusControllerP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight17SelphIDControllerC16statusController4core07IStatusG0_pSgvs",
+                "mangledName": "$s21selphidComponentLight17SelphIDControllerC16statusController4core07IStatusG0_pSgvs",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight17SelphIDControllerC16statusController4core07IStatusG0_pSgvM",
+                "mangledName": "$s21selphidComponentLight17SelphIDControllerC16statusController4core07IStatusG0_pSgvM",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tokenizeController",
+            "printedName": "tokenizeController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any core.ITokenizeController)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ITokenizeController",
+                    "printedName": "any core.ITokenizeController",
+                    "usr": "s:4core19ITokenizeControllerP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21selphidComponentLight17SelphIDControllerC18tokenizeController4core09ITokenizeG0_pSgvp",
+            "mangledName": "$s21selphidComponentLight17SelphIDControllerC18tokenizeController4core09ITokenizeG0_pSgvp",
+            "moduleName": "selphidComponentLight",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any core.ITokenizeController)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ITokenizeController",
+                        "printedName": "any core.ITokenizeController",
+                        "usr": "s:4core19ITokenizeControllerP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight17SelphIDControllerC18tokenizeController4core09ITokenizeG0_pSgvg",
+                "mangledName": "$s21selphidComponentLight17SelphIDControllerC18tokenizeController4core09ITokenizeG0_pSgvg",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any core.ITokenizeController)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ITokenizeController",
+                        "printedName": "any core.ITokenizeController",
+                        "usr": "s:4core19ITokenizeControllerP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight17SelphIDControllerC18tokenizeController4core09ITokenizeG0_pSgvs",
+                "mangledName": "$s21selphidComponentLight17SelphIDControllerC18tokenizeController4core09ITokenizeG0_pSgvs",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight17SelphIDControllerC18tokenizeController4core09ITokenizeG0_pSgvM",
+                "mangledName": "$s21selphidComponentLight17SelphIDControllerC18tokenizeController4core09ITokenizeG0_pSgvM",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "flowController",
             "printedName": "flowController",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "core.IFlowController?",
+                "printedName": "(any core.IFlowController)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "IFlowController",
-                    "printedName": "core.IFlowController",
+                    "printedName": "any core.IFlowController",
                     "usr": "s:4core15IFlowControllerP"
                   }
                 ],
@@ -3284,12 +3893,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "core.IFlowController?",
+                    "printedName": "(any core.IFlowController)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "IFlowController",
-                        "printedName": "core.IFlowController",
+                        "printedName": "any core.IFlowController",
                         "usr": "s:4core15IFlowControllerP"
                       }
                     ],
@@ -3316,12 +3925,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "core.IFlowController?",
+                    "printedName": "(any core.IFlowController)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "IFlowController",
-                        "printedName": "core.IFlowController",
+                        "printedName": "any core.IFlowController",
                         "usr": "s:4core15IFlowControllerP"
                       }
                     ],
@@ -3459,6 +4068,32 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "permissionFailed",
+            "printedName": "permissionFailed(errorType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorType",
+                "printedName": "core.ErrorType",
+                "usr": "s:4core9ErrorTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21selphidComponentLight17SelphIDControllerC16permissionFailed9errorTypey4core05ErrorI0O_tF",
+            "mangledName": "$s21selphidComponentLight17SelphIDControllerC16permissionFailed9errorTypey4core05ErrorI0O_tF",
+            "moduleName": "selphidComponentLight",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -3539,7 +4174,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "IOperationableController",
-                "printedName": "core.IOperationableController",
+                "printedName": "any core.IOperationableController",
                 "usr": "s:4core24IOperationableControllerP"
               }
             ],
@@ -3602,14 +4237,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:21selphidComponentLight17SelphIDControllerC10dataStringSSvp",
-            "mangledName": "$s21selphidComponentLight17SelphIDControllerC10dataStringSSvp",
+            "usr": "s:21selphidComponentLight17SelphIDControllerC10dataStringSSSgvp",
+            "mangledName": "$s21selphidComponentLight17SelphIDControllerC10dataStringSSSgvp",
             "moduleName": "selphidComponentLight",
             "declAttributes": [
               "AccessControl"
@@ -3623,14 +4266,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight17SelphIDControllerC10dataStringSSvg",
-                "mangledName": "$s21selphidComponentLight17SelphIDControllerC10dataStringSSvg",
+                "usr": "s:21selphidComponentLight17SelphIDControllerC10dataStringSSSgvg",
+                "mangledName": "$s21selphidComponentLight17SelphIDControllerC10dataStringSSSgvg",
                 "moduleName": "selphidComponentLight",
                 "isFromExtension": true,
                 "accessorKind": "get"
@@ -3647,14 +4298,22 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight17SelphIDControllerC10dataStringSSvs",
-                "mangledName": "$s21selphidComponentLight17SelphIDControllerC10dataStringSSvs",
+                "usr": "s:21selphidComponentLight17SelphIDControllerC10dataStringSSSgvs",
+                "mangledName": "$s21selphidComponentLight17SelphIDControllerC10dataStringSSSgvs",
                 "moduleName": "selphidComponentLight",
                 "isFromExtension": true,
                 "accessorKind": "set"
@@ -3671,8 +4330,117 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight17SelphIDControllerC10dataStringSSvM",
-                "mangledName": "$s21selphidComponentLight17SelphIDControllerC10dataStringSSvM",
+                "usr": "s:21selphidComponentLight17SelphIDControllerC10dataStringSSSgvM",
+                "mangledName": "$s21selphidComponentLight17SelphIDControllerC10dataStringSSSgvM",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customizationString",
+            "printedName": "customizationString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21selphidComponentLight17SelphIDControllerC19customizationStringSSSgvp",
+            "mangledName": "$s21selphidComponentLight17SelphIDControllerC19customizationStringSSSgvp",
+            "moduleName": "selphidComponentLight",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight17SelphIDControllerC19customizationStringSSSgvg",
+                "mangledName": "$s21selphidComponentLight17SelphIDControllerC19customizationStringSSSgvg",
+                "moduleName": "selphidComponentLight",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight17SelphIDControllerC19customizationStringSSSgvs",
+                "mangledName": "$s21selphidComponentLight17SelphIDControllerC19customizationStringSSSgvs",
+                "moduleName": "selphidComponentLight",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight17SelphIDControllerC19customizationStringSSSgvM",
+                "mangledName": "$s21selphidComponentLight17SelphIDControllerC19customizationStringSSSgvM",
                 "moduleName": "selphidComponentLight",
                 "implicit": true,
                 "isFromExtension": true,
@@ -3765,12 +4533,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -3879,13 +4647,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "ITrackableController",
-            "printedName": "ITrackableController",
-            "usr": "s:4core20ITrackableControllerP",
-            "mangledName": "$s4core20ITrackableControllerP"
-          },
-          {
-            "kind": "Conformance",
             "name": "IMethodableController",
             "printedName": "IMethodableController",
             "usr": "s:4core21IMethodableControllerP",
@@ -3893,10 +4654,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "IBehaviorableController",
-            "printedName": "IBehaviorableController",
-            "usr": "s:4core23IBehaviorableControllerP",
-            "mangledName": "$s4core23IBehaviorableControllerP"
+            "name": "ITrackableController",
+            "printedName": "ITrackableController",
+            "usr": "s:4core20ITrackableControllerP",
+            "mangledName": "$s4core20ITrackableControllerP"
           },
           {
             "kind": "Conformance",
@@ -3914,10 +4675,45 @@
           },
           {
             "kind": "Conformance",
+            "name": "IStatusableController",
+            "printedName": "IStatusableController",
+            "usr": "s:4core21IStatusableControllerP",
+            "mangledName": "$s4core21IStatusableControllerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ITokenizableController",
+            "printedName": "ITokenizableController",
+            "usr": "s:4core22ITokenizableControllerP",
+            "mangledName": "$s4core22ITokenizableControllerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IBehaviorableController",
+            "printedName": "IBehaviorableController",
+            "usr": "s:4core23IBehaviorableControllerP",
+            "mangledName": "$s4core23IBehaviorableControllerP"
+          },
+          {
+            "kind": "Conformance",
             "name": "IFlowableController",
             "printedName": "IFlowableController",
             "usr": "s:4core19IFlowableControllerP",
             "mangledName": "$s4core19IFlowableControllerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IConfigurableController",
+            "printedName": "IConfigurableController",
+            "usr": "s:4core23IConfigurableControllerP",
+            "mangledName": "$s4core23IConfigurableControllerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ICustomizableController",
+            "printedName": "ICustomizableController",
+            "usr": "s:4core23ICustomizableControllerP",
+            "mangledName": "$s4core23ICustomizableControllerP"
           },
           {
             "kind": "Conformance",
@@ -3968,6 +4764,16 @@
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "selphidComponentLight",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -4181,10 +4987,634 @@
       },
       {
         "kind": "Import",
-        "name": "core",
-        "printedName": "core",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "selphidComponentLight",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "selphidComponentLight"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ThemeSelphidProtocol",
+        "printedName": "ThemeSelphidProtocol",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21selphidComponentLight20ThemeSelphidProtocolP4nameSSvp",
+            "mangledName": "$s21selphidComponentLight20ThemeSelphidProtocolP4nameSSvp",
+            "moduleName": "selphidComponentLight",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight20ThemeSelphidProtocolP4nameSSvg",
+                "mangledName": "$s21selphidComponentLight20ThemeSelphidProtocolP4nameSSvg",
+                "moduleName": "selphidComponentLight",
+                "genericSig": "<τ_0_0 where τ_0_0 : selphidComponentLight.ThemeSelphidProtocol>",
+                "sugared_genericSig": "<Self where Self : selphidComponentLight.ThemeSelphidProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "animations",
+            "printedName": "animations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[selphidComponentLight.R.Animation : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Animation",
+                    "printedName": "selphidComponentLight.R.Animation",
+                    "usr": "s:21selphidComponentLight1RO9AnimationO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21selphidComponentLight20ThemeSelphidProtocolP10animationsSDyAA1RO9AnimationOSSGvp",
+            "mangledName": "$s21selphidComponentLight20ThemeSelphidProtocolP10animationsSDyAA1RO9AnimationOSSGvp",
+            "moduleName": "selphidComponentLight",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[selphidComponentLight.R.Animation : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animation",
+                        "printedName": "selphidComponentLight.R.Animation",
+                        "usr": "s:21selphidComponentLight1RO9AnimationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight20ThemeSelphidProtocolP10animationsSDyAA1RO9AnimationOSSGvg",
+                "mangledName": "$s21selphidComponentLight20ThemeSelphidProtocolP10animationsSDyAA1RO9AnimationOSSGvg",
+                "moduleName": "selphidComponentLight",
+                "genericSig": "<τ_0_0 where τ_0_0 : selphidComponentLight.ThemeSelphidProtocol>",
+                "sugared_genericSig": "<Self where Self : selphidComponentLight.ThemeSelphidProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "animations",
+            "printedName": "animations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[selphidComponentLight.R.Animation : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Animation",
+                    "printedName": "selphidComponentLight.R.Animation",
+                    "usr": "s:21selphidComponentLight1RO9AnimationO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21selphidComponentLight20ThemeSelphidProtocolPAAE10animationsSDyAA1RO9AnimationOSSGvp",
+            "mangledName": "$s21selphidComponentLight20ThemeSelphidProtocolPAAE10animationsSDyAA1RO9AnimationOSSGvp",
+            "moduleName": "selphidComponentLight",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[selphidComponentLight.R.Animation : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animation",
+                        "printedName": "selphidComponentLight.R.Animation",
+                        "usr": "s:21selphidComponentLight1RO9AnimationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight20ThemeSelphidProtocolPAAE10animationsSDyAA1RO9AnimationOSSGvg",
+                "mangledName": "$s21selphidComponentLight20ThemeSelphidProtocolPAAE10animationsSDyAA1RO9AnimationOSSGvg",
+                "moduleName": "selphidComponentLight",
+                "genericSig": "<τ_0_0 where τ_0_0 : selphidComponentLight.ThemeSelphidProtocol>",
+                "sugared_genericSig": "<Self where Self : selphidComponentLight.ThemeSelphidProtocol>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:21selphidComponentLight20ThemeSelphidProtocolP",
+        "mangledName": "$s21selphidComponentLight20ThemeSelphidProtocolP",
+        "moduleName": "selphidComponentLight",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "selphidComponentLight",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "R",
+        "printedName": "R",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Animation",
+            "printedName": "Animation",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "selphid_anim_tuto_id",
+                "printedName": "selphid_anim_tuto_id",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(selphidComponentLight.R.Animation.Type) -> selphidComponentLight.R.Animation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animation",
+                        "printedName": "selphidComponentLight.R.Animation",
+                        "usr": "s:21selphidComponentLight1RO9AnimationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "selphidComponentLight.R.Animation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Animation",
+                            "printedName": "selphidComponentLight.R.Animation",
+                            "usr": "s:21selphidComponentLight1RO9AnimationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A13_anim_tuto_idyA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A13_anim_tuto_idyA2EmF",
+                "moduleName": "selphidComponentLight"
+              },
+              {
+                "kind": "Var",
+                "name": "selphid_anim_tuto_passport",
+                "printedName": "selphid_anim_tuto_passport",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(selphidComponentLight.R.Animation.Type) -> selphidComponentLight.R.Animation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animation",
+                        "printedName": "selphidComponentLight.R.Animation",
+                        "usr": "s:21selphidComponentLight1RO9AnimationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "selphidComponentLight.R.Animation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Animation",
+                            "printedName": "selphidComponentLight.R.Animation",
+                            "usr": "s:21selphidComponentLight1RO9AnimationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A19_anim_tuto_passportyA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A19_anim_tuto_passportyA2EmF",
+                "moduleName": "selphidComponentLight"
+              },
+              {
+                "kind": "Var",
+                "name": "selphid_anim_tip_1",
+                "printedName": "selphid_anim_tip_1",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(selphidComponentLight.R.Animation.Type) -> selphidComponentLight.R.Animation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animation",
+                        "printedName": "selphidComponentLight.R.Animation",
+                        "usr": "s:21selphidComponentLight1RO9AnimationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "selphidComponentLight.R.Animation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Animation",
+                            "printedName": "selphidComponentLight.R.Animation",
+                            "usr": "s:21selphidComponentLight1RO9AnimationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A11_anim_tip_1yA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A11_anim_tip_1yA2EmF",
+                "moduleName": "selphidComponentLight"
+              },
+              {
+                "kind": "Var",
+                "name": "selphid_anim_tip_2",
+                "printedName": "selphid_anim_tip_2",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(selphidComponentLight.R.Animation.Type) -> selphidComponentLight.R.Animation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animation",
+                        "printedName": "selphidComponentLight.R.Animation",
+                        "usr": "s:21selphidComponentLight1RO9AnimationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "selphidComponentLight.R.Animation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Animation",
+                            "printedName": "selphidComponentLight.R.Animation",
+                            "usr": "s:21selphidComponentLight1RO9AnimationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A11_anim_tip_2yA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A11_anim_tip_2yA2EmF",
+                "moduleName": "selphidComponentLight"
+              },
+              {
+                "kind": "Var",
+                "name": "selphid_anim_tip_3",
+                "printedName": "selphid_anim_tip_3",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(selphidComponentLight.R.Animation.Type) -> selphidComponentLight.R.Animation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animation",
+                        "printedName": "selphidComponentLight.R.Animation",
+                        "usr": "s:21selphidComponentLight1RO9AnimationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "selphidComponentLight.R.Animation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Animation",
+                            "printedName": "selphidComponentLight.R.Animation",
+                            "usr": "s:21selphidComponentLight1RO9AnimationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A11_anim_tip_3yA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A11_anim_tip_3yA2EmF",
+                "moduleName": "selphidComponentLight"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "selphidComponentLight.R.Animation?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animation",
+                        "printedName": "selphidComponentLight.R.Animation",
+                        "usr": "s:21selphidComponentLight1RO9AnimationO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:21selphidComponentLight1RO9AnimationO8rawValueAESgSS_tcfc",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO8rawValueAESgSS_tcfc",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21selphidComponentLight1RO9AnimationO8rawValueSSvp",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO8rawValueSSvp",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21selphidComponentLight1RO9AnimationO8rawValueSSvg",
+                    "mangledName": "$s21selphidComponentLight1RO9AnimationO8rawValueSSvg",
+                    "moduleName": "selphidComponentLight",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "allCases",
+                "printedName": "allCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[selphidComponentLight.R.Animation]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animation",
+                        "printedName": "selphidComponentLight.R.Animation",
+                        "usr": "s:21selphidComponentLight1RO9AnimationO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21selphidComponentLight1RO9AnimationO8allCasesSayAEGvpZ",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO8allCasesSayAEGvpZ",
+                "moduleName": "selphidComponentLight",
+                "static": true,
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[selphidComponentLight.R.Animation]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Animation",
+                            "printedName": "selphidComponentLight.R.Animation",
+                            "usr": "s:21selphidComponentLight1RO9AnimationO"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21selphidComponentLight1RO9AnimationO8allCasesSayAEGvgZ",
+                    "mangledName": "$s21selphidComponentLight1RO9AnimationO8allCasesSayAEGvgZ",
+                    "moduleName": "selphidComponentLight",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:21selphidComponentLight1RO9AnimationO",
+            "mangledName": "$s21selphidComponentLight1RO9AnimationO",
+            "moduleName": "selphidComponentLight",
+            "isFromExtension": true,
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CaseIterable",
+                "printedName": "CaseIterable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "AllCases",
+                    "printedName": "AllCases",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[selphidComponentLight.R.Animation]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Animation",
+                            "printedName": "selphidComponentLight.R.Animation",
+                            "usr": "s:21selphidComponentLight1RO9AnimationO"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:s12CaseIterableP",
+                "mangledName": "$ss12CaseIterableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:21selphidComponentLight1RO",
+        "mangledName": "$s21selphidComponentLight1RO",
+        "moduleName": "selphidComponentLight",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -6462,21 +7892,35 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "core.PersonalData?",
+                "printedName": "[Swift.String : Swift.String]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "PersonalData",
-                    "printedName": "core.PersonalData",
-                    "usr": "s:4core12PersonalDataV"
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:21selphidComponentLight13SelphIDResultV12personalData4core08PersonalG0VSgvp",
-            "mangledName": "$s21selphidComponentLight13SelphIDResultV12personalData4core08PersonalG0VSgvp",
+            "usr": "s:21selphidComponentLight13SelphIDResultV12personalDataSDyS2SGSgvp",
+            "mangledName": "$s21selphidComponentLight13SelphIDResultV12personalDataSDyS2SGSgvp",
             "moduleName": "selphidComponentLight",
             "declAttributes": [
               "HasInitialValue",
@@ -6493,21 +7937,35 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "core.PersonalData?",
+                    "printedName": "[Swift.String : Swift.String]?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "PersonalData",
-                        "printedName": "core.PersonalData",
-                        "usr": "s:4core12PersonalDataV"
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight13SelphIDResultV12personalData4core08PersonalG0VSgvg",
-                "mangledName": "$s21selphidComponentLight13SelphIDResultV12personalData4core08PersonalG0VSgvg",
+                "usr": "s:21selphidComponentLight13SelphIDResultV12personalDataSDyS2SGSgvg",
+                "mangledName": "$s21selphidComponentLight13SelphIDResultV12personalDataSDyS2SGSgvg",
                 "moduleName": "selphidComponentLight",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6525,21 +7983,35 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "core.PersonalData?",
+                    "printedName": "[Swift.String : Swift.String]?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "PersonalData",
-                        "printedName": "core.PersonalData",
-                        "usr": "s:4core12PersonalDataV"
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight13SelphIDResultV12personalData4core08PersonalG0VSgvs",
-                "mangledName": "$s21selphidComponentLight13SelphIDResultV12personalData4core08PersonalG0VSgvs",
+                "usr": "s:21selphidComponentLight13SelphIDResultV12personalDataSDyS2SGSgvs",
+                "mangledName": "$s21selphidComponentLight13SelphIDResultV12personalDataSDyS2SGSgvs",
                 "moduleName": "selphidComponentLight",
                 "implicit": true,
                 "accessorKind": "set"
@@ -6556,8 +8028,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight13SelphIDResultV12personalData4core08PersonalG0VSgvM",
-                "mangledName": "$s21selphidComponentLight13SelphIDResultV12personalData4core08PersonalG0VSgvM",
+                "usr": "s:21selphidComponentLight13SelphIDResultV12personalDataSDyS2SGSgvM",
+                "mangledName": "$s21selphidComponentLight13SelphIDResultV12personalDataSDyS2SGSgvM",
                 "moduleName": "selphidComponentLight",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -7268,6 +8740,92 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "selphidComponentLight"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ThemeSelphidManager",
+        "printedName": "ThemeSelphidManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup(theme:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ThemeSelphidProtocol",
+                "printedName": "any selphidComponentLight.ThemeSelphidProtocol",
+                "usr": "s:21selphidComponentLight20ThemeSelphidProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21selphidComponentLight19ThemeSelphidManagerO5setup5themeyAA0dE8Protocol_p_tFZ",
+            "mangledName": "$s21selphidComponentLight19ThemeSelphidManagerO5setup5themeyAA0dE8Protocol_p_tFZ",
+            "moduleName": "selphidComponentLight",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:21selphidComponentLight19ThemeSelphidManagerO",
+        "mangledName": "$s21selphidComponentLight19ThemeSelphidManagerO",
+        "moduleName": "selphidComponentLight",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "selphidComponentLight",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "selphidComponentLight"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "selphidComponentLight",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "selphidComponentLight",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -7525,6 +9083,193 @@
             "mangledName": "$sSE"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Bundle",
+        "printedName": "Bundle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "selphidBundle",
+            "printedName": "selphidBundle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So8NSBundleC21selphidComponentLightE0B6BundleABvpZ",
+            "mangledName": "$sSo8NSBundleC21selphidComponentLightE0B6BundleABvpZ",
+            "moduleName": "selphidComponentLight",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8NSBundleC21selphidComponentLightE0B6BundleABvgZ",
+                "mangledName": "$sSo8NSBundleC21selphidComponentLightE0B6BundleABvgZ",
+                "moduleName": "selphidComponentLight",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8NSBundleC21selphidComponentLightE0B6BundleABvsZ",
+                "mangledName": "$sSo8NSBundleC21selphidComponentLightE0B6BundleABvsZ",
+                "moduleName": "selphidComponentLight",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8NSBundleC21selphidComponentLightE0B6BundleABvMZ",
+                "mangledName": "$sSo8NSBundleC21selphidComponentLightE0B6BundleABvMZ",
+                "moduleName": "selphidComponentLight",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSBundle",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSBundle",
+        "declAttributes": [
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -7538,6 +9283,76 @@
       "value": "\"SELPHID_MAIN_SCREEN\""
     },
     {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
+      "kind": "StringLiteral",
+      "offset": 263,
+      "length": 18,
+      "value": "\"selphidComponent\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
+      "kind": "StringLiteral",
+      "offset": 368,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
+      "kind": "StringLiteral",
+      "offset": 382,
+      "length": 19,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
+      "kind": "StringLiteral",
+      "offset": 400,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
+      "kind": "StringLiteral",
+      "offset": 476,
+      "length": 29,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
+      "kind": "StringLiteral",
+      "offset": 490,
+      "length": 1,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
+      "kind": "StringLiteral",
+      "offset": 504,
+      "length": 19,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
+      "kind": "StringLiteral",
+      "offset": 522,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
+      "kind": "StringLiteral",
+      "offset": 713,
+      "length": 36,
+      "value": "\"Cannot access \""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
+      "kind": "StringLiteral",
+      "offset": 748,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 160,
@@ -7760,6 +9575,69 @@
       "offset": 699,
       "length": 19,
       "value": "\"Front\/MRZ\/MrzText\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "kind": "StringLiteral",
+      "offset": 252,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 265,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 317,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 359,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 553,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 613,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 656,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 879,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1244,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/SelphIDController.swift",
@@ -7767,13 +9645,6 @@
       "offset": 271,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/SelphIDController.swift",
-      "kind": "StringLiteral",
-      "offset": 792,
-      "length": 43,
-      "value": "\"fphi-selphid-widget-resources-selphid-1.0\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/SelphIDController.swift",
@@ -7792,9 +9663,16 @@
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 226,
+      "offset": 218,
+      "length": 19,
+      "value": "\"selphid_component\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 277,
       "length": 7,
-      "value": "\"1.5.0\""
+      "value": "\"2.0.1\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",

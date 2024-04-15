@@ -1,40 +1,64 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name selphidComponentLight
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name selphidComponentLight
 import FPhiSelphIDWidgetiOS
 import Foundation
 import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 import core
 import licenseCheckerComponent
+extension Foundation.Bundle {
+  public static var selphidBundle: Foundation.Bundle
+}
+extension selphidComponentLight.R {
+  public enum Animation : Swift.String, Swift.CaseIterable {
+    case selphid_anim_tuto_id
+    case selphid_anim_tuto_passport
+    case selphid_anim_tip_1
+    case selphid_anim_tip_2
+    case selphid_anim_tip_3
+    public init?(rawValue: Swift.String)
+    public typealias AllCases = [selphidComponentLight.R.Animation]
+    public typealias RawValue = Swift.String
+    public static var allCases: [selphidComponentLight.R.Animation] {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
 public struct SelphIDConfigurationData : Swift.Codable {
-  public var debug: Swift.Bool?
+  public var resourcesPath: Swift.String?
   public var wizardMode: Swift.Bool?
   public var showResultAfterCapture: Swift.Bool?
   public var showTutorial: Swift.Bool?
-  public var tutorialOnly: Swift.Bool?
   public var scanMode: selphidComponentLight.SelphIDScanMode
   public var specificData: Swift.String?
-  public var fullscreen: Swift.Bool?
+  public var documentType: selphidComponentLight.SelphIDDocumentType
+  public var showDiagnostic: Swift.Bool?
+  public var debug: Swift.Bool?
+  public var tutorialOnly: Swift.Bool?
   public var tokenImageQuality: Swift.Float?
   public var locale: Swift.String?
-  public var documentType: selphidComponentLight.SelphIDDocumentType
   public var documentSide: selphidComponentLight.SelphIDDocumentSide
   public var timeout: selphidComponentLight.SelphIDTimeout
   public var generateRawImages: Swift.Bool?
   public var translationsContent: Swift.String?
   public var viewsContent: Swift.String?
   public var documentModels: Swift.String?
-  public var resourcesPath: Swift.String?
+  public var params: [Swift.String : Swift.String]?
+  public var models: Swift.String?
+  public var fullscreen: Swift.Bool?
   public var videoFilename: Swift.String?
   public var tokenPreviousCaptureData: Swift.String?
-  public var params: [Swift.String : Swift.String]?
+  public var vibrationEnabled: Swift.Bool?
   public init()
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum SelphIDScanMode : Swift.String, Swift.Codable {
   case MODE_GENERIC
@@ -49,6 +73,7 @@ public enum SelphIDScanMode : Swift.String, Swift.Codable {
 public enum SelphIDDocumentSide : Swift.String, Swift.Codable {
   case FRONT
   case BACK
+  case ALL
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -57,24 +82,31 @@ public enum SelphIDDocumentSide : Swift.String, Swift.Codable {
 }
 @objc public class SelphIDController : ObjectiveC.NSObject {
   public var license: Swift.String
-  public var trackingController: core.ITrackingController?
-  public var behaviorController: core.IBehaviorController?
-  public var flowController: core.IFlowController?
+  public var trackingController: (any core.ITrackingController)?
+  public var behaviorController: (any core.IBehaviorController)?
+  public var statusController: (any core.IStatusController)?
+  public var tokenizeController: (any core.ITokenizeController)?
+  public var flowController: (any core.IFlowController)?
   public init(data: selphidComponentLight.SelphIDConfigurationData?, output: @escaping (core.SdkResult<selphidComponentLight.SelphIDResult>) -> (), viewController: UIKit.UIViewController)
   public func tokenize(data: Swift.String) -> core.SdkResult<Swift.String>
+  public func permissionFailed(errorType: core.ErrorType)
   @objc deinit
 }
 extension selphidComponentLight.SelphIDController : core.ITrackMethodableController {
   public var trackingStep: Swift.String {
     get
   }
-  public func start(operationController: core.IOperationableController)
+  public func start(operationController: any core.IOperationableController)
 }
 extension selphidComponentLight.SelphIDController : core.IFlowableController {
   public var flowStep: Swift.String {
     get
   }
-  public var dataString: Swift.String {
+  public var dataString: Swift.String? {
+    get
+    set(newValue)
+  }
+  public var customizationString: Swift.String? {
     get
     set(newValue)
   }
@@ -83,7 +115,7 @@ extension selphidComponentLight.SelphIDController : FPhiSelphIDWidgetiOS.FPhiSel
   @objc dynamic public func captureFinished()
   @objc dynamic public func captureCancelled()
   @objc dynamic public func captureTimeout()
-  @objc dynamic public func captureFailed(_ error: Swift.Error!)
+  @objc dynamic public func captureFailed(_ error: (any Swift.Error)!)
   @objc dynamic public func onEvent(_ time: Foundation.Date!, type: Swift.String!, info: Swift.String!)
 }
 public enum SelphIDError : Swift.String {
@@ -94,6 +126,17 @@ public enum SelphIDError : Swift.String {
   public var rawValue: Swift.String {
     get
   }
+}
+public protocol ThemeSelphidProtocol {
+  var name: Swift.String { get }
+  var animations: [selphidComponentLight.R.Animation : Swift.String] { get }
+}
+extension selphidComponentLight.ThemeSelphidProtocol {
+  public var animations: [selphidComponentLight.R.Animation : Swift.String] {
+    get
+  }
+}
+public enum R {
 }
 public struct SelphIDResult {
   public var ocrResults: [Swift.String : Swift.String]?
@@ -118,7 +161,7 @@ public struct SelphIDResult {
   public var faceImageData: Foundation.Data?
   public var signatureImage: Foundation.Data?
   public var fingerprintImage: Foundation.Data?
-  public var personalData: core.PersonalData?
+  public var personalData: [Swift.String : Swift.String]?
   public init()
 }
 public protocol INfcKeysProvider {
@@ -148,6 +191,9 @@ public enum SelphIDDocumentType : Swift.String, Swift.CaseIterable, Swift.Codabl
     get
   }
 }
+public enum ThemeSelphidManager {
+  public static func setup(theme: any selphidComponentLight.ThemeSelphidProtocol)
+}
 public enum SelphIDTimeout : Swift.String, Swift.Codable {
   case SHORT
   case MEDIUM
@@ -158,6 +204,9 @@ public enum SelphIDTimeout : Swift.String, Swift.Codable {
     get
   }
 }
+extension selphidComponentLight.R.Animation : Swift.Equatable {}
+extension selphidComponentLight.R.Animation : Swift.Hashable {}
+extension selphidComponentLight.R.Animation : Swift.RawRepresentable {}
 extension selphidComponentLight.SelphIDScanMode : Swift.Equatable {}
 extension selphidComponentLight.SelphIDScanMode : Swift.Hashable {}
 extension selphidComponentLight.SelphIDScanMode : Swift.RawRepresentable {}

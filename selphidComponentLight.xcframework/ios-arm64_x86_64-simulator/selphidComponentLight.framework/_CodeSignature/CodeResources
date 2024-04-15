@@ -6,35 +6,23 @@
 	<dict>
 		<key>Frameworks/licenseCheckerComponent.framework/Info.plist</key>
 		<data>
-		pY2FHmiMkAtez3XFUtPyg5bc2WI=
+		G/igqNmEjUyN6T88v9uwW1EBgd8=
 		</data>
 		<key>Frameworks/licenseCheckerComponent.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Yn6F3trUlb8PPQ87G7cj2zaQ2Qw=
+		h5PxJK0yJlsxAq1Q0ZGzNa8AdDs=
 		</data>
 		<key>Frameworks/licenseCheckerComponent.framework/licenseCheckerComponent</key>
 		<data>
-		RRS0uXk3ufRmcVvglQSA3bYgP34=
-		</data>
-		<key>Frameworks/licensingLite.framework/Info.plist</key>
-		<data>
-		lEPzBeR1biLVdk1+/a1ouvHW9OE=
-		</data>
-		<key>Frameworks/licensingLite.framework/_CodeSignature/CodeResources</key>
-		<data>
-		OqDuH0Dkj7pwifEVqF95aHOILE0=
-		</data>
-		<key>Frameworks/licensingLite.framework/licensingLite</key>
-		<data>
-		gJwgYOozyfbN4LwmH324uPsWVpo=
+		84AkkEfvGrh/6GzTLwytk4spD8Y=
 		</data>
 		<key>Headers/selphidComponentLight-Swift.h</key>
 		<data>
-		kncmanWqbRlsUWmY3Ho37PwCkd8=
+		wyyKxwgzNkujxofI6g6secfPty8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xJXPgoYZEM2L49k5jM7MF4Fp97s=
+		azhI5qvKNCyQbmSKRYozDraEVK4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,102 +30,170 @@
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		THFCSBJJmqQB8P7TYTgcqIllFhQ=
+		wNfN3YhWICQ533HOzd8h/RVx9t8=
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		lU55Dt1Q3QxJvDrY5anLzDt0D+g=
+		AYeCib5SZUrfx0qxNAvuZpYf1d4=
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		fAS4YB3oLd/HnpM74pxVG0oXh+g=
+		Zeg6/fSX30vLpjpSI2FbSBTUQ3g=
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		lU55Dt1Q3QxJvDrY5anLzDt0D+g=
+		AYeCib5SZUrfx0qxNAvuZpYf1d4=
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Y1TooYPyJmAz2iSVE3RohpVB6Yg=
+		/QA+omZBpNSDDvkD0A19iYZogL4=
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		THFCSBJJmqQB8P7TYTgcqIllFhQ=
+		wNfN3YhWICQ533HOzd8h/RVx9t8=
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		BvrIoGFDHr/31aM/0ougNWy4QEE=
+		Akslg3v3hQEowdtwW15uyawyCfI=
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ST5ugqSp7fxw20c68xk/8lwW+JQ=
+		HF0wDgZueP2u8D573f1L5JXzS+g=
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BvrIoGFDHr/31aM/0ougNWy4QEE=
+		Akslg3v3hQEowdtwW15uyawyCfI=
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		npqkf0ZA5sId7wKY5K7Ul50SAWg=
+		putt7J7E41AOIiVKJoWoiNpxYMA=
 		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		Z7lts5egkCVudHucSd4argfpfgs=
+		</data>
+		<key>ca.lproj/SelphidLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CG4Armouy+jeno5HrO8HNfji9VE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en.lproj/SelphidLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			j7TCx3zZCgZCw6mZVj46smYoaRE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/SelphidLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gABgGPikoEyCzA6DX3ydpq4ttY8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>fphi-selphid-widget-resources-selphid-1.0.zip</key>
 		<data>
-		Q63JCy133lQ/rzNAB+9sdJB5XxI=
+		VxJoWFrXdzGIUZqVnBEMBXBcZAc=
+		</data>
+		<key>pt-BR.lproj/SelphidLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FkMZwYh7OOSP8+4rPgRJT+lm4Zg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-PT.lproj/SelphidLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FkMZwYh7OOSP8+4rPgRJT+lm4Zg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>selphid_anim_tip_1.json</key>
+		<data>
+		5ix/rHjwHwlGTZ26tPYMYbQxjqc=
+		</data>
+		<key>selphid_anim_tip_2.json</key>
+		<data>
+		0Eeah7D4NK9XSrNVaDAnYCpBqCk=
+		</data>
+		<key>selphid_anim_tip_3.json</key>
+		<data>
+		s3/BRlcf9xqNUBHlVVq4jw7gvwQ=
+		</data>
+		<key>selphid_anim_tuto_id.json</key>
+		<data>
+		Yjd4Y1RQuksDJYtKlPNnPEOJK28=
+		</data>
+		<key>selphid_anim_tuto_passport.json</key>
+		<data>
+		vbVQObc+YcyF6t7b+QwXmWwnJYE=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Frameworks/licenseCheckerComponent.framework/Info.plist</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			G/igqNmEjUyN6T88v9uwW1EBgd8=
+			</data>
 			<key>hash2</key>
 			<data>
-			Gy1lsu1/7wNWvzIPkqZyZBSTGglornWX8dWA3jp+mF8=
+			DDKYuN5KV0JCWdaOoSSu4w7oSy+RwOXtc8OOj9BByfM=
 			</data>
 		</dict>
 		<key>Frameworks/licenseCheckerComponent.framework/_CodeSignature/CodeResources</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			h5PxJK0yJlsxAq1Q0ZGzNa8AdDs=
+			</data>
 			<key>hash2</key>
 			<data>
-			jD2gtT+h7BcWCeZuXXnPwSQSxYJV6niySloBnChKOJ4=
+			PjAa2wLcAMXIEW7cuoOzyG845mHiK8m7OJ9py0jsIZ4=
 			</data>
 		</dict>
 		<key>Frameworks/licenseCheckerComponent.framework/licenseCheckerComponent</key>
 		<dict>
-			<key>hash2</key>
+			<key>hash</key>
 			<data>
-			YUf0wqs3d53/vQvoTIEU9S6/0va+fTAqbKWBwm6lHgk=
+			84AkkEfvGrh/6GzTLwytk4spD8Y=
 			</data>
-		</dict>
-		<key>Frameworks/licensingLite.framework/Info.plist</key>
-		<dict>
 			<key>hash2</key>
 			<data>
-			D5B+yxY+90HbM+AjKO+QnSm0Q8kq51yvW2wQNOzR5vg=
-			</data>
-		</dict>
-		<key>Frameworks/licensingLite.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WyV2Upuv6AAeHbMthbNnJaff2YKu0e2/XaiHsWJCHyQ=
-			</data>
-		</dict>
-		<key>Frameworks/licensingLite.framework/licensingLite</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eNNAkrkvKeZ0rePwsU+63b99wzi8Ve6Z5zCmUSPtKX0=
+			LgHf4bwAsVLBc/c+Qael9W6mtIZ6B43Na8Ix3J+Msxc=
 			</data>
 		</dict>
 		<key>Headers/selphidComponentLight-Swift.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			wyyKxwgzNkujxofI6g6secfPty8=
+			</data>
 			<key>hash2</key>
 			<data>
-			UMsuoZcpkGDaj7jyCfGoTf0qPnCyhvYtT4hSeb0swtI=
+			RpEGqv0L/v4cAKSVl+Azww9H8s3rz9vcQMgrPz7k8bQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			IAC4Vri1BWQ/EVyJahva21A/Fqc=
+			</data>
 			<key>hash2</key>
 			<data>
 			hmCjWnsNIjm9kgZeJ/cs2/PnB9rZ9cgwpfZk+T6yKcc=
@@ -145,79 +201,254 @@
 		</dict>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			wNfN3YhWICQ533HOzd8h/RVx9t8=
+			</data>
 			<key>hash2</key>
 			<data>
-			4zT33rGYZ4fiTw2rYulhw7IF81eMwcp+DM/+jizTos4=
+			Hwhb28Dy/x3FMoP7337xJmlZ0NC0AqcDciRIOpwZGec=
 			</data>
 		</dict>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			AYeCib5SZUrfx0qxNAvuZpYf1d4=
+			</data>
 			<key>hash2</key>
 			<data>
-			5tcnGhSxJP5Y5FViXfjFf/+UAjhf5ACh1qRmpmZBRbc=
+			6cufbLVbBA0A9ZIeOeY5S1r1hzeSPKtNQxRK49XQFL0=
 			</data>
 		</dict>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Zeg6/fSX30vLpjpSI2FbSBTUQ3g=
+			</data>
 			<key>hash2</key>
 			<data>
-			DGsu5hBElH7loN3kOk8Xk9DfBIrsSvvohWwUTnZWLL8=
+			Jghleqeun55sDOnrhJ/jusCdJvPZaM0jTOFSSiPuanE=
 			</data>
 		</dict>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			AYeCib5SZUrfx0qxNAvuZpYf1d4=
+			</data>
 			<key>hash2</key>
 			<data>
-			5tcnGhSxJP5Y5FViXfjFf/+UAjhf5ACh1qRmpmZBRbc=
+			6cufbLVbBA0A9ZIeOeY5S1r1hzeSPKtNQxRK49XQFL0=
 			</data>
 		</dict>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			/QA+omZBpNSDDvkD0A19iYZogL4=
+			</data>
 			<key>hash2</key>
 			<data>
-			BGYVI/+RysVf3zImJowC97FsYYO+UaHdNJo/eSp+PFw=
+			33Lyvwryqf/NDVXyFiLGachOWEdriG8I27RzqU6Fojs=
 			</data>
 		</dict>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			wNfN3YhWICQ533HOzd8h/RVx9t8=
+			</data>
 			<key>hash2</key>
 			<data>
-			4zT33rGYZ4fiTw2rYulhw7IF81eMwcp+DM/+jizTos4=
+			Hwhb28Dy/x3FMoP7337xJmlZ0NC0AqcDciRIOpwZGec=
 			</data>
 		</dict>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Akslg3v3hQEowdtwW15uyawyCfI=
+			</data>
 			<key>hash2</key>
 			<data>
-			yihpG3yRTVLfWiECMdc9bQ7sAxMIOc99lBKrqWIXViE=
+			JzyNcY6efGu6BwfZa69Xs6ZFDsJh+YJCzZcQR62wcPA=
 			</data>
 		</dict>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			HF0wDgZueP2u8D573f1L5JXzS+g=
+			</data>
 			<key>hash2</key>
 			<data>
-			SYrfLwjGd/4fWnRK5E+crQZvL7MUbRhz1U4Q4u92iMo=
+			u0fuaKNXxbpO8DkxzYqeiR6NHPJrm35lPW22Z02yZTw=
 			</data>
 		</dict>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Akslg3v3hQEowdtwW15uyawyCfI=
+			</data>
 			<key>hash2</key>
 			<data>
-			yihpG3yRTVLfWiECMdc9bQ7sAxMIOc99lBKrqWIXViE=
+			JzyNcY6efGu6BwfZa69Xs6ZFDsJh+YJCzZcQR62wcPA=
 			</data>
 		</dict>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			putt7J7E41AOIiVKJoWoiNpxYMA=
+			</data>
 			<key>hash2</key>
 			<data>
-			t1+KrhfbUfrER3WWy2LmglLtb/w1nfz7HwAYedXnKBk=
+			cpYxyGJzruarVe0lsXuM2Ag7OfxrR+2UT9zB8GM4wMo=
 			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Z7lts5egkCVudHucSd4argfpfgs=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ac/6JpzVI0qnX7kWpYLuJTITcZR0wsoltZEqcrJvYe0=
+			</data>
+		</dict>
+		<key>ca.lproj/SelphidLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CG4Armouy+jeno5HrO8HNfji9VE=
+			</data>
+			<key>hash2</key>
+			<data>
+			dzr6sggUdZWt3gCfIsaIy95xI3vboVHDyjEiovpVawg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en.lproj/SelphidLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			j7TCx3zZCgZCw6mZVj46smYoaRE=
+			</data>
+			<key>hash2</key>
+			<data>
+			O1RsofnjOLrqPbJpKZfChmtbbdgXbWdWsibTKIOijVA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/SelphidLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gABgGPikoEyCzA6DX3ydpq4ttY8=
+			</data>
+			<key>hash2</key>
+			<data>
+			68gxVsRDSa3VHtMY2RjoSP/+9b85JU+YpFzvfbbWAPg=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>fphi-selphid-widget-resources-selphid-1.0.zip</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			VxJoWFrXdzGIUZqVnBEMBXBcZAc=
+			</data>
 			<key>hash2</key>
 			<data>
-			jQaojr5AqK1a4Oolhg/0yTKoNr3QK2ql0b1AQIZsJZI=
+			4S6OKdIKSlPcf4yC8M0coDouyG00JZLjDNNz3WT5CgA=
+			</data>
+		</dict>
+		<key>pt-BR.lproj/SelphidLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FkMZwYh7OOSP8+4rPgRJT+lm4Zg=
+			</data>
+			<key>hash2</key>
+			<data>
+			+u13onknvSbcbhyISPMZzW9tzv2EjBy2KAdnISl6Fck=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>pt-PT.lproj/SelphidLocalizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FkMZwYh7OOSP8+4rPgRJT+lm4Zg=
+			</data>
+			<key>hash2</key>
+			<data>
+			+u13onknvSbcbhyISPMZzW9tzv2EjBy2KAdnISl6Fck=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>selphid_anim_tip_1.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5ix/rHjwHwlGTZ26tPYMYbQxjqc=
+			</data>
+			<key>hash2</key>
+			<data>
+			F6UFnsPLhQu2SDl2OloMqYLIxdtwLP5nXdo4wIPSNyo=
+			</data>
+		</dict>
+		<key>selphid_anim_tip_2.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0Eeah7D4NK9XSrNVaDAnYCpBqCk=
+			</data>
+			<key>hash2</key>
+			<data>
+			0jI81oDUEzhV/iq5QuZKVqqWWGmp/fea7vhhQmx3m7w=
+			</data>
+		</dict>
+		<key>selphid_anim_tip_3.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			s3/BRlcf9xqNUBHlVVq4jw7gvwQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			aoxiC7bS2YXUTcSy2OvxEaL1xA4v1oD6M+4jTsaJ1p0=
+			</data>
+		</dict>
+		<key>selphid_anim_tuto_id.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Yjd4Y1RQuksDJYtKlPNnPEOJK28=
+			</data>
+			<key>hash2</key>
+			<data>
+			mLbBflCrcUwYTNeLuUXG8XX1/lUJJJiSdacal5yeDpU=
+			</data>
+		</dict>
+		<key>selphid_anim_tuto_passport.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vbVQObc+YcyF6t7b+QwXmWwnJYE=
+			</data>
+			<key>hash2</key>
+			<data>
+			MLDKnPwiB4ygTfmEEFuDsWU/9DI+eNRd9b1pa7GxZSw=
 			</data>
 		</dict>
 	</dict>
