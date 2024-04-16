@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "selphidComponentLight",
+    defaultLocalization: "es",
     platforms: [.iOS(.v9)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
@@ -26,8 +27,8 @@ let package = Package(
                 .product(name: "FPhiSelphIDWidgetiOSLight", package: "selphidnoml-framework"),
                 "SDK-CorePackage-SPM",
                 "selphidComponentLight"
-            ]
-        ),
+            ],
+            resources: [.process("Resources")]),
         .binaryTarget(name: "selphidComponentLight", path: "selphidComponentLight.xcframework")
     ]
 )
