@@ -9276,497 +9276,504 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/BehaviorStep.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/BehaviorStep.swift",
       "kind": "StringLiteral",
       "offset": 166,
       "length": 21,
       "value": "\"SELPHID_MAIN_SCREEN\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
       "offset": 263,
       "length": 18,
       "value": "\"selphidComponent\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
       "offset": 368,
       "length": 15,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
       "offset": 382,
       "length": 19,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
       "offset": 400,
       "length": 8,
       "value": "\"bundle\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
       "offset": 476,
       "length": 29,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
       "offset": 490,
       "length": 1,
       "value": "\"_\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
       "offset": 504,
       "length": 19,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
       "offset": 522,
       "length": 8,
       "value": "\"bundle\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
       "offset": 713,
       "length": 36,
       "value": "\"Cannot access \""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Extensions\/Bundle.swift",
       "kind": "StringLiteral",
       "offset": 748,
       "length": 4,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 160,
       "length": 8,
       "value": "\"Issuer\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 196,
       "length": 16,
       "value": "\"DocumentNumber\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 238,
       "length": 13,
       "value": "\"DateOfIssue\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 278,
       "length": 14,
       "value": "\"DateOfExpiry\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 315,
       "length": 11,
       "value": "\"FirstName\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 348,
       "length": 10,
       "value": "\"LastName\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 380,
       "length": 10,
       "value": "\"FullName\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 409,
       "length": 8,
       "value": "\"Gender\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 443,
       "length": 13,
       "value": "\"DateOfBirth\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 483,
       "length": 14,
       "value": "\"PlaceOfBirth\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 521,
       "length": 13,
       "value": "\"Nationality\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 554,
       "length": 9,
       "value": "\"Address\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 583,
       "length": 8,
       "value": "\"NfcKey\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 615,
       "length": 23,
       "value": "\"Front\/ML\/IDCardNumber\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 659,
       "length": 18,
       "value": "\"Back\/MRZ\/MrzText\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 699,
       "length": 19,
       "value": "\"Front\/MRZ\/MrzText\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 160,
       "length": 8,
       "value": "\"Issuer\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 196,
       "length": 16,
       "value": "\"DocumentNumber\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 238,
       "length": 13,
       "value": "\"DateOfIssue\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 278,
       "length": 14,
       "value": "\"DateOfExpiry\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 315,
       "length": 11,
       "value": "\"FirstName\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 348,
       "length": 10,
       "value": "\"LastName\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 380,
       "length": 10,
       "value": "\"FullName\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 409,
       "length": 8,
       "value": "\"Gender\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 443,
       "length": 13,
       "value": "\"DateOfBirth\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 483,
       "length": 14,
       "value": "\"PlaceOfBirth\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 521,
       "length": 13,
       "value": "\"Nationality\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 554,
       "length": 9,
       "value": "\"Address\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 583,
       "length": 8,
       "value": "\"NfcKey\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 615,
       "length": 23,
       "value": "\"Front\/ML\/IDCardNumber\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 659,
       "length": 18,
       "value": "\"Back\/MRZ\/MrzText\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/OcrKeys.swift",
       "kind": "StringLiteral",
       "offset": 699,
       "length": 19,
       "value": "\"Front\/MRZ\/MrzText\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/DataParser.swift",
       "kind": "StringLiteral",
       "offset": 252,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
       "kind": "BooleanLiteral",
       "offset": 265,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
       "kind": "BooleanLiteral",
       "offset": 317,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
       "kind": "BooleanLiteral",
       "offset": 359,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
       "kind": "BooleanLiteral",
       "offset": 553,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
       "kind": "BooleanLiteral",
       "offset": 613,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
       "kind": "BooleanLiteral",
       "offset": 656,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
       "kind": "BooleanLiteral",
       "offset": 879,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
       "kind": "BooleanLiteral",
       "offset": 1244,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/SelphIDController.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/SelphIDController.swift",
       "kind": "StringLiteral",
       "offset": 271,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/SelphIDController.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/SelphIDController.swift",
       "kind": "StringLiteral",
       "offset": 208,
       "length": 17,
       "value": "\"selphidComponentLight.SelphIDController\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Constants.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 155,
       "length": 31,
       "value": "\"com.facephi.selphid_component\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Constants.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 218,
       "length": 19,
       "value": "\"selphid_component\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Constants.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 277,
-      "length": 7,
-      "value": "\"2.0.1\""
+      "offset": 264,
+      "length": 12,
+      "value": "\"selphid_ml\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 316,
+      "length": 7,
+      "value": "\"2.0.2\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
       "kind": "StringLiteral",
       "offset": 314,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
       "kind": "StringLiteral",
       "offset": 361,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
       "kind": "StringLiteral",
       "offset": 404,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
       "kind": "StringLiteral",
       "offset": 441,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
       "kind": "StringLiteral",
       "offset": 487,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
       "kind": "FloatLiteral",
       "offset": 534,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
       "kind": "IntegerLiteral",
       "offset": 576,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
       "kind": "StringLiteral",
       "offset": 626,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
       "kind": "StringLiteral",
       "offset": 676,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
       "kind": "StringLiteral",
       "offset": 723,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
       "kind": "StringLiteral",
       "offset": 761,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
       "kind": "StringLiteral",
       "offset": 807,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
       "kind": "StringLiteral",
       "offset": 853,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jorgepoveda\/Repositorios\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
       "kind": "StringLiteral",
       "offset": 941,
       "length": 2,
