@@ -307,7 +307,6 @@ SWIFT_CLASS("_TtC21selphidComponentLight17SelphIDController")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-
 @class NSDate;
 @class NSString;
 
@@ -318,6 +317,7 @@ SWIFT_CLASS("_TtC21selphidComponentLight17SelphIDController")
 - (void)CaptureFailed:(NSError * _Null_unspecified)error;
 - (void)onEvent:(NSDate * _Null_unspecified)time type:(NSString * _Null_unspecified)type info:(NSString * _Null_unspecified)info;
 @end
+
 
 
 #endif

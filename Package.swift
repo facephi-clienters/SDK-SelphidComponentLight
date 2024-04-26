@@ -5,7 +5,6 @@ import PackageDescription
 
 let package = Package(
     name: "selphidComponentLight",
-    defaultLocalization: "es",
     platforms: [.iOS(.v9)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
@@ -15,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "git@github.com:facephi-clienters/selphidnoml-framework.git", .upToNextMinor(from: "1.24.1")),
+        .package(url: "git@github.com:facephi-clienters/selphidnoml-framework.git", .upToNextMinor(from: "1.24.2")),
         .package(url: "git@github.com:facephi-clienters/SDK-CorePackage-SPM.git", .upToNextMinor(from: "2.0.0"))
     ],
     targets: [
@@ -27,8 +26,8 @@ let package = Package(
                 .product(name: "FPhiSelphIDWidgetiOSLight", package: "selphidnoml-framework"),
                 "SDK-CorePackage-SPM",
                 "selphidComponentLight"
-            ],
-            resources: [.process("Resources")]),
+            ]
+        ),
         .binaryTarget(name: "selphidComponentLight", path: "selphidComponentLight.xcframework")
     ]
 )
