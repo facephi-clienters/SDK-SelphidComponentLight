@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		S0YtPthT1htL7A3jFSHE71gFUcg=
+		7FvPsEUdvYbw+G9ufjRx9qmLV48=
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		n0zlpDmDwustVzAE2LgN++axRos=
+		C3FUKQE1YpPuQ4Cty0uoombM3Ec=
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		S0YtPthT1htL7A3jFSHE71gFUcg=
+		7FvPsEUdvYbw+G9ufjRx9qmLV48=
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -66,11 +66,11 @@
 		</data>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		s8BaUW1DSbSYK7+wIyPZBy6qhug=
+		kqEMhAxQnmiA4V3YInoTUHd+BPE=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		Z7lts5egkCVudHucSd4argfpfgs=
+		Az33J+SOvXG2e6U7cQNdnYQLq58=
 		</data>
 		<key>ca.lproj/SelphidLocalizable.strings</key>
 		<dict>
@@ -183,7 +183,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			arO71kMcXDQ80wmwXohN11tlmgyWq0T4SGRrV3XaVcY=
+			lajFXBEtF2IkHYwT3vzEG9tyVjUOuzc6IJ2taG8/+7A=
 			</data>
 		</dict>
 		<key>Modules/selphidComponentLight.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -211,14 +211,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CPeKxb4/NrYcYdpvI4I0/6+pDvuEQo1VjgOVrsPpP4g=
+			lsLVoapDHflAE7LP+tf4KKA+XVysbnHK80+XVPzVrhs=
 			</data>
 		</dict>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			arO71kMcXDQ80wmwXohN11tlmgyWq0T4SGRrV3XaVcY=
+			lajFXBEtF2IkHYwT3vzEG9tyVjUOuzc6IJ2taG8/+7A=
 			</data>
 		</dict>
 		<key>Modules/selphidComponentLight.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -246,14 +246,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lFdguVy8wftyQdJsBVNVlDXZCpwCKz4WDdYOyptXVjc=
+			kXZRVfCGrGrUKuEdgwmL9iUMvJ3YXlhtXNn1GLKj8b4=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ac/6JpzVI0qnX7kWpYLuJTITcZR0wsoltZEqcrJvYe0=
+			qRRdxKuWm2ZVce3Knc2o//dSf6JhgPgr6nyGR3vVjtM=
 			</data>
 		</dict>
 		<key>ca.lproj/SelphidLocalizable.strings</key>
