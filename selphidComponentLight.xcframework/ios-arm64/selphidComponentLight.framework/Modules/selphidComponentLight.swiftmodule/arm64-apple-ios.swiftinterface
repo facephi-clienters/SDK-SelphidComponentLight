@@ -90,6 +90,7 @@ public enum SelphIDDocumentSide : Swift.String, Swift.Codable {
   public init(data: selphidComponentLight.SelphIDConfigurationData?, output: @escaping (core.SdkResult<selphidComponentLight.SelphIDResult>) -> (), viewController: UIKit.UIViewController)
   public func tokenize(data: Swift.String) -> core.SdkResult<Swift.String>
   public func permissionFailed(errorType: core.ErrorType)
+  public static func getPreviewImagesWhenTimeout() -> (front: UIKit.UIImage?, back: UIKit.UIImage?)
   @objc deinit
 }
 extension selphidComponentLight.SelphIDController : core.ITrackMethodableController {
