@@ -15,11 +15,31 @@ extension Foundation.Bundle {
 }
 extension selphidComponentLight.R {
   public enum Animation : Swift.String, Swift.CaseIterable {
-    case selphid_anim_tuto_id
-    case selphid_anim_tuto_passport
-    case selphid_anim_tip_1
-    case selphid_anim_tip_2
-    case selphid_anim_tip_3
+    case selphid_anim_tuto_driving_1
+    case selphid_anim_tuto_driving_2
+    case selphid_anim_tuto_driving_3
+    case selphid_anim_tuto_id_1
+    case selphid_anim_tuto_id_2
+    case selphid_anim_tuto_id_3
+    case selphid_anim_tuto_pass_1
+    case selphid_anim_tuto_pass_2
+    case selphid_anim_tuto_pass_3
+    case selphid_anim_tip_pass_male
+    case selphid_anim_tip_pass_female
+    case selphid_anim_tip
+    case selphid_anim_tip_health_mad
+    case selphid_anim_tip_id_male
+    case selphid_anim_tip_id_female
+    case selphid_anim_tip_mrz
+    case selphid_anim_tip_driver_male
+    case selphid_anim_tip_driver_female
+    case selphid_anim_tuto_health_mad_1
+    case selphid_anim_tuto_health_mad_2
+    case selphid_anim_tuto_health_mad_3
+    case selphid_anim_tip_custom
+    case selphid_anim_tuto_custom_1
+    case selphid_anim_tuto_custom_2
+    case selphid_anim_tuto_custom_3
     public init?(rawValue: Swift.String)
     public typealias AllCases = [selphidComponentLight.R.Animation]
     public typealias RawValue = Swift.String
@@ -89,14 +109,15 @@ public enum SelphIDDocumentSide : Swift.String, Swift.Codable {
   public var flowController: (any core.IFlowController)?
   public init(data: selphidComponentLight.SelphIDConfigurationData?, output: @escaping (core.SdkResult<selphidComponentLight.SelphIDResult>) -> (), viewController: UIKit.UIViewController)
   public func tokenize(data: Swift.String) -> core.SdkResult<Swift.String>
-  public func permissionFailed(errorType: core.ErrorType)
   public static func getPreviewImagesWhenTimeout() -> (front: UIKit.UIImage?, back: UIKit.UIImage?)
   @objc deinit
 }
-extension selphidComponentLight.SelphIDController : core.ITrackMethodableController {
+extension selphidComponentLight.SelphIDController : core.ITrackableController {
   public var trackingStep: Swift.String {
     get
   }
+}
+extension selphidComponentLight.SelphIDController : core.IMethodableController {
   public func start(operationController: any core.IOperationableController)
 }
 extension selphidComponentLight.SelphIDController : core.IFlowableController {
@@ -107,7 +128,7 @@ extension selphidComponentLight.SelphIDController : core.IFlowableController {
     get
     set(newValue)
   }
-  public var customizationString: Swift.String? {
+  public var customization: core.CommonCustomization? {
     get
     set(newValue)
   }
@@ -136,6 +157,9 @@ extension selphidComponentLight.ThemeSelphidProtocol {
   public var animations: [selphidComponentLight.R.Animation : Swift.String] {
     get
   }
+}
+public enum Constants {
+  public static let libraryPackageVersion: Swift.String
 }
 public enum R {
 }
