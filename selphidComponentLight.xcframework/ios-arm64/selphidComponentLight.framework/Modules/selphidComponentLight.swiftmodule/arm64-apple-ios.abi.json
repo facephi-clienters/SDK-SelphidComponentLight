@@ -26,23 +26,10 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "FPhiSelphIDWidgetiOS",
+        "printedName": "FPhiSelphIDWidgetiOS",
         "declKind": "Import",
-        "moduleName": "selphidComponentLight",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "selphidComponentLight",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "selphidComponentLight"
       },
       {
         "kind": "Import",
@@ -50,6 +37,26 @@
         "printedName": "core",
         "declKind": "Import",
         "moduleName": "selphidComponentLight"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "selphidComponentLight",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "selphidComponentLight",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -2686,6 +2693,116 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "showPreviousTip",
+            "printedName": "showPreviousTip",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV15showPreviousTipSbSgvp",
+            "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV15showPreviousTipSbSgvp",
+            "moduleName": "selphidComponentLight",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV15showPreviousTipSbSgvg",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV15showPreviousTipSbSgvg",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV15showPreviousTipSbSgvs",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV15showPreviousTipSbSgvs",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV15showPreviousTipSbSgvM",
+                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV15showPreviousTipSbSgvM",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -4384,27 +4501,27 @@
           },
           {
             "kind": "Var",
-            "name": "customizationString",
-            "printedName": "customizationString",
+            "name": "customization",
+            "printedName": "customization",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.String?",
+                "printedName": "core.CommonCustomization?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "CommonCustomization",
+                    "printedName": "core.CommonCustomization",
+                    "usr": "s:4core19CommonCustomizationV"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:21selphidComponentLight17SelphIDControllerC19customizationStringSSSgvp",
-            "mangledName": "$s21selphidComponentLight17SelphIDControllerC19customizationStringSSSgvp",
+            "usr": "s:21selphidComponentLight17SelphIDControllerC13customization4core19CommonCustomizationVSgvp",
+            "mangledName": "$s21selphidComponentLight17SelphIDControllerC13customization4core19CommonCustomizationVSgvp",
             "moduleName": "selphidComponentLight",
             "declAttributes": [
               "AccessControl"
@@ -4419,21 +4536,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.String?",
+                    "printedName": "core.CommonCustomization?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "CommonCustomization",
+                        "printedName": "core.CommonCustomization",
+                        "usr": "s:4core19CommonCustomizationV"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight17SelphIDControllerC19customizationStringSSSgvg",
-                "mangledName": "$s21selphidComponentLight17SelphIDControllerC19customizationStringSSSgvg",
+                "usr": "s:21selphidComponentLight17SelphIDControllerC13customization4core19CommonCustomizationVSgvg",
+                "mangledName": "$s21selphidComponentLight17SelphIDControllerC13customization4core19CommonCustomizationVSgvg",
                 "moduleName": "selphidComponentLight",
                 "isFromExtension": true,
                 "accessorKind": "get"
@@ -4451,21 +4568,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.String?",
+                    "printedName": "core.CommonCustomization?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "CommonCustomization",
+                        "printedName": "core.CommonCustomization",
+                        "usr": "s:4core19CommonCustomizationV"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight17SelphIDControllerC19customizationStringSSSgvs",
-                "mangledName": "$s21selphidComponentLight17SelphIDControllerC19customizationStringSSSgvs",
+                "usr": "s:21selphidComponentLight17SelphIDControllerC13customization4core19CommonCustomizationVSgvs",
+                "mangledName": "$s21selphidComponentLight17SelphIDControllerC13customization4core19CommonCustomizationVSgvs",
                 "moduleName": "selphidComponentLight",
                 "isFromExtension": true,
                 "accessorKind": "set"
@@ -4482,8 +4599,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight17SelphIDControllerC19customizationStringSSSgvM",
-                "mangledName": "$s21selphidComponentLight17SelphIDControllerC19customizationStringSSSgvM",
+                "usr": "s:21selphidComponentLight17SelphIDControllerC13customization4core19CommonCustomizationVSgvM",
+                "mangledName": "$s21selphidComponentLight17SelphIDControllerC13customization4core19CommonCustomizationVSgvM",
                 "moduleName": "selphidComponentLight",
                 "implicit": true,
                 "isFromExtension": true,
@@ -4683,10 +4800,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "ITrackMethodableController",
-            "printedName": "ITrackMethodableController",
-            "usr": "s:4core26ITrackMethodableControllerP",
-            "mangledName": "$s4core26ITrackMethodableControllerP"
+            "name": "ITrackableController",
+            "printedName": "ITrackableController",
+            "usr": "s:4core20ITrackableControllerP",
+            "mangledName": "$s4core20ITrackableControllerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IBehaviorableController",
+            "printedName": "IBehaviorableController",
+            "usr": "s:4core23IBehaviorableControllerP",
+            "mangledName": "$s4core23IBehaviorableControllerP"
           },
           {
             "kind": "Conformance",
@@ -4694,13 +4818,6 @@
             "printedName": "IMethodableController",
             "usr": "s:4core21IMethodableControllerP",
             "mangledName": "$s4core21IMethodableControllerP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ITrackableController",
-            "printedName": "ITrackableController",
-            "usr": "s:4core20ITrackableControllerP",
-            "mangledName": "$s4core20ITrackableControllerP"
           },
           {
             "kind": "Conformance",
@@ -4729,13 +4846,6 @@
             "printedName": "ITokenizableController",
             "usr": "s:4core22ITokenizableControllerP",
             "mangledName": "$s4core22ITokenizableControllerP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "IBehaviorableController",
-            "printedName": "IBehaviorableController",
-            "usr": "s:4core23IBehaviorableControllerP",
-            "mangledName": "$s4core23IBehaviorableControllerP"
           },
           {
             "kind": "Conformance",
@@ -5324,8 +5434,8 @@
             "children": [
               {
                 "kind": "Var",
-                "name": "selphid_anim_tuto",
-                "printedName": "selphid_anim_tuto",
+                "name": "selphid_anim_tuto_driving_1",
+                "printedName": "selphid_anim_tuto_driving_1",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -5355,14 +5465,14 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:21selphidComponentLight1RO9AnimationO0A10_anim_tutoyA2EmF",
-                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A10_anim_tutoyA2EmF",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A20_anim_tuto_driving_1yA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A20_anim_tuto_driving_1yA2EmF",
                 "moduleName": "selphidComponentLight"
               },
               {
                 "kind": "Var",
-                "name": "selphid_anim_tuto_id",
-                "printedName": "selphid_anim_tuto_id",
+                "name": "selphid_anim_tuto_driving_2",
+                "printedName": "selphid_anim_tuto_driving_2",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -5392,14 +5502,14 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:21selphidComponentLight1RO9AnimationO0A13_anim_tuto_idyA2EmF",
-                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A13_anim_tuto_idyA2EmF",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A20_anim_tuto_driving_2yA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A20_anim_tuto_driving_2yA2EmF",
                 "moduleName": "selphidComponentLight"
               },
               {
                 "kind": "Var",
-                "name": "selphid_anim_tuto_passport",
-                "printedName": "selphid_anim_tuto_passport",
+                "name": "selphid_anim_tuto_driving_3",
+                "printedName": "selphid_anim_tuto_driving_3",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -5429,14 +5539,14 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:21selphidComponentLight1RO9AnimationO0A19_anim_tuto_passportyA2EmF",
-                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A19_anim_tuto_passportyA2EmF",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A20_anim_tuto_driving_3yA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A20_anim_tuto_driving_3yA2EmF",
                 "moduleName": "selphidComponentLight"
               },
               {
                 "kind": "Var",
-                "name": "selphid_anim_tuto_driving",
-                "printedName": "selphid_anim_tuto_driving",
+                "name": "selphid_anim_tuto_id_1",
+                "printedName": "selphid_anim_tuto_id_1",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -5466,14 +5576,14 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:21selphidComponentLight1RO9AnimationO0A18_anim_tuto_drivingyA2EmF",
-                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A18_anim_tuto_drivingyA2EmF",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A15_anim_tuto_id_1yA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A15_anim_tuto_id_1yA2EmF",
                 "moduleName": "selphidComponentLight"
               },
               {
                 "kind": "Var",
-                "name": "selphid_anim_tip_id_1",
-                "printedName": "selphid_anim_tip_id_1",
+                "name": "selphid_anim_tuto_id_2",
+                "printedName": "selphid_anim_tuto_id_2",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -5503,14 +5613,14 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:21selphidComponentLight1RO9AnimationO0A14_anim_tip_id_1yA2EmF",
-                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A14_anim_tip_id_1yA2EmF",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A15_anim_tuto_id_2yA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A15_anim_tuto_id_2yA2EmF",
                 "moduleName": "selphidComponentLight"
               },
               {
                 "kind": "Var",
-                "name": "selphid_anim_tip_id_2",
-                "printedName": "selphid_anim_tip_id_2",
+                "name": "selphid_anim_tuto_id_3",
+                "printedName": "selphid_anim_tuto_id_3",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -5540,14 +5650,14 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:21selphidComponentLight1RO9AnimationO0A14_anim_tip_id_2yA2EmF",
-                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A14_anim_tip_id_2yA2EmF",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A15_anim_tuto_id_3yA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A15_anim_tuto_id_3yA2EmF",
                 "moduleName": "selphidComponentLight"
               },
               {
                 "kind": "Var",
-                "name": "selphid_anim_tip_id_3",
-                "printedName": "selphid_anim_tip_id_3",
+                "name": "selphid_anim_tuto_pass_1",
+                "printedName": "selphid_anim_tuto_pass_1",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -5577,14 +5687,14 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:21selphidComponentLight1RO9AnimationO0A14_anim_tip_id_3yA2EmF",
-                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A14_anim_tip_id_3yA2EmF",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A17_anim_tuto_pass_1yA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A17_anim_tuto_pass_1yA2EmF",
                 "moduleName": "selphidComponentLight"
               },
               {
                 "kind": "Var",
-                "name": "selphid_anim_tip_pass_1",
-                "printedName": "selphid_anim_tip_pass_1",
+                "name": "selphid_anim_tuto_pass_2",
+                "printedName": "selphid_anim_tuto_pass_2",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -5614,14 +5724,14 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:21selphidComponentLight1RO9AnimationO0A16_anim_tip_pass_1yA2EmF",
-                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A16_anim_tip_pass_1yA2EmF",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A17_anim_tuto_pass_2yA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A17_anim_tuto_pass_2yA2EmF",
                 "moduleName": "selphidComponentLight"
               },
               {
                 "kind": "Var",
-                "name": "selphid_anim_tip_pass_2",
-                "printedName": "selphid_anim_tip_pass_2",
+                "name": "selphid_anim_tuto_pass_3",
+                "printedName": "selphid_anim_tuto_pass_3",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -5651,14 +5761,14 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:21selphidComponentLight1RO9AnimationO0A16_anim_tip_pass_2yA2EmF",
-                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A16_anim_tip_pass_2yA2EmF",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A17_anim_tuto_pass_3yA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A17_anim_tuto_pass_3yA2EmF",
                 "moduleName": "selphidComponentLight"
               },
               {
                 "kind": "Var",
-                "name": "selphid_anim_tip_pass_3",
-                "printedName": "selphid_anim_tip_pass_3",
+                "name": "selphid_anim_tip_pass_male",
+                "printedName": "selphid_anim_tip_pass_male",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -5688,14 +5798,14 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:21selphidComponentLight1RO9AnimationO0A16_anim_tip_pass_3yA2EmF",
-                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A16_anim_tip_pass_3yA2EmF",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A19_anim_tip_pass_maleyA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A19_anim_tip_pass_maleyA2EmF",
                 "moduleName": "selphidComponentLight"
               },
               {
                 "kind": "Var",
-                "name": "selphid_anim_tip_driving_1",
-                "printedName": "selphid_anim_tip_driving_1",
+                "name": "selphid_anim_tip_pass_female",
+                "printedName": "selphid_anim_tip_pass_female",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -5725,14 +5835,14 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:21selphidComponentLight1RO9AnimationO0A19_anim_tip_driving_1yA2EmF",
-                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A19_anim_tip_driving_1yA2EmF",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A21_anim_tip_pass_femaleyA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A21_anim_tip_pass_femaleyA2EmF",
                 "moduleName": "selphidComponentLight"
               },
               {
                 "kind": "Var",
-                "name": "selphid_anim_tip_driving_2",
-                "printedName": "selphid_anim_tip_driving_2",
+                "name": "selphid_anim_tip",
+                "printedName": "selphid_anim_tip",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -5762,14 +5872,14 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:21selphidComponentLight1RO9AnimationO0A19_anim_tip_driving_2yA2EmF",
-                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A19_anim_tip_driving_2yA2EmF",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A9_anim_tipyA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A9_anim_tipyA2EmF",
                 "moduleName": "selphidComponentLight"
               },
               {
                 "kind": "Var",
-                "name": "selphid_anim_tip_driving_3",
-                "printedName": "selphid_anim_tip_driving_3",
+                "name": "selphid_anim_tip_health_mad",
+                "printedName": "selphid_anim_tip_health_mad",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -5799,8 +5909,452 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:21selphidComponentLight1RO9AnimationO0A19_anim_tip_driving_3yA2EmF",
-                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A19_anim_tip_driving_3yA2EmF",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A20_anim_tip_health_madyA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A20_anim_tip_health_madyA2EmF",
+                "moduleName": "selphidComponentLight"
+              },
+              {
+                "kind": "Var",
+                "name": "selphid_anim_tip_id_male",
+                "printedName": "selphid_anim_tip_id_male",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(selphidComponentLight.R.Animation.Type) -> selphidComponentLight.R.Animation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animation",
+                        "printedName": "selphidComponentLight.R.Animation",
+                        "usr": "s:21selphidComponentLight1RO9AnimationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "selphidComponentLight.R.Animation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Animation",
+                            "printedName": "selphidComponentLight.R.Animation",
+                            "usr": "s:21selphidComponentLight1RO9AnimationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A17_anim_tip_id_maleyA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A17_anim_tip_id_maleyA2EmF",
+                "moduleName": "selphidComponentLight"
+              },
+              {
+                "kind": "Var",
+                "name": "selphid_anim_tip_id_female",
+                "printedName": "selphid_anim_tip_id_female",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(selphidComponentLight.R.Animation.Type) -> selphidComponentLight.R.Animation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animation",
+                        "printedName": "selphidComponentLight.R.Animation",
+                        "usr": "s:21selphidComponentLight1RO9AnimationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "selphidComponentLight.R.Animation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Animation",
+                            "printedName": "selphidComponentLight.R.Animation",
+                            "usr": "s:21selphidComponentLight1RO9AnimationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A19_anim_tip_id_femaleyA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A19_anim_tip_id_femaleyA2EmF",
+                "moduleName": "selphidComponentLight"
+              },
+              {
+                "kind": "Var",
+                "name": "selphid_anim_tip_mrz",
+                "printedName": "selphid_anim_tip_mrz",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(selphidComponentLight.R.Animation.Type) -> selphidComponentLight.R.Animation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animation",
+                        "printedName": "selphidComponentLight.R.Animation",
+                        "usr": "s:21selphidComponentLight1RO9AnimationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "selphidComponentLight.R.Animation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Animation",
+                            "printedName": "selphidComponentLight.R.Animation",
+                            "usr": "s:21selphidComponentLight1RO9AnimationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A13_anim_tip_mrzyA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A13_anim_tip_mrzyA2EmF",
+                "moduleName": "selphidComponentLight"
+              },
+              {
+                "kind": "Var",
+                "name": "selphid_anim_tip_driver_male",
+                "printedName": "selphid_anim_tip_driver_male",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(selphidComponentLight.R.Animation.Type) -> selphidComponentLight.R.Animation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animation",
+                        "printedName": "selphidComponentLight.R.Animation",
+                        "usr": "s:21selphidComponentLight1RO9AnimationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "selphidComponentLight.R.Animation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Animation",
+                            "printedName": "selphidComponentLight.R.Animation",
+                            "usr": "s:21selphidComponentLight1RO9AnimationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A21_anim_tip_driver_maleyA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A21_anim_tip_driver_maleyA2EmF",
+                "moduleName": "selphidComponentLight"
+              },
+              {
+                "kind": "Var",
+                "name": "selphid_anim_tip_driver_female",
+                "printedName": "selphid_anim_tip_driver_female",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(selphidComponentLight.R.Animation.Type) -> selphidComponentLight.R.Animation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animation",
+                        "printedName": "selphidComponentLight.R.Animation",
+                        "usr": "s:21selphidComponentLight1RO9AnimationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "selphidComponentLight.R.Animation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Animation",
+                            "printedName": "selphidComponentLight.R.Animation",
+                            "usr": "s:21selphidComponentLight1RO9AnimationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A23_anim_tip_driver_femaleyA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A23_anim_tip_driver_femaleyA2EmF",
+                "moduleName": "selphidComponentLight"
+              },
+              {
+                "kind": "Var",
+                "name": "selphid_anim_tuto_health_mad_1",
+                "printedName": "selphid_anim_tuto_health_mad_1",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(selphidComponentLight.R.Animation.Type) -> selphidComponentLight.R.Animation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animation",
+                        "printedName": "selphidComponentLight.R.Animation",
+                        "usr": "s:21selphidComponentLight1RO9AnimationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "selphidComponentLight.R.Animation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Animation",
+                            "printedName": "selphidComponentLight.R.Animation",
+                            "usr": "s:21selphidComponentLight1RO9AnimationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A23_anim_tuto_health_mad_1yA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A23_anim_tuto_health_mad_1yA2EmF",
+                "moduleName": "selphidComponentLight"
+              },
+              {
+                "kind": "Var",
+                "name": "selphid_anim_tuto_health_mad_2",
+                "printedName": "selphid_anim_tuto_health_mad_2",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(selphidComponentLight.R.Animation.Type) -> selphidComponentLight.R.Animation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animation",
+                        "printedName": "selphidComponentLight.R.Animation",
+                        "usr": "s:21selphidComponentLight1RO9AnimationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "selphidComponentLight.R.Animation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Animation",
+                            "printedName": "selphidComponentLight.R.Animation",
+                            "usr": "s:21selphidComponentLight1RO9AnimationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A23_anim_tuto_health_mad_2yA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A23_anim_tuto_health_mad_2yA2EmF",
+                "moduleName": "selphidComponentLight"
+              },
+              {
+                "kind": "Var",
+                "name": "selphid_anim_tuto_health_mad_3",
+                "printedName": "selphid_anim_tuto_health_mad_3",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(selphidComponentLight.R.Animation.Type) -> selphidComponentLight.R.Animation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animation",
+                        "printedName": "selphidComponentLight.R.Animation",
+                        "usr": "s:21selphidComponentLight1RO9AnimationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "selphidComponentLight.R.Animation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Animation",
+                            "printedName": "selphidComponentLight.R.Animation",
+                            "usr": "s:21selphidComponentLight1RO9AnimationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A23_anim_tuto_health_mad_3yA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A23_anim_tuto_health_mad_3yA2EmF",
+                "moduleName": "selphidComponentLight"
+              },
+              {
+                "kind": "Var",
+                "name": "selphid_anim_tip_custom",
+                "printedName": "selphid_anim_tip_custom",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(selphidComponentLight.R.Animation.Type) -> selphidComponentLight.R.Animation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animation",
+                        "printedName": "selphidComponentLight.R.Animation",
+                        "usr": "s:21selphidComponentLight1RO9AnimationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "selphidComponentLight.R.Animation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Animation",
+                            "printedName": "selphidComponentLight.R.Animation",
+                            "usr": "s:21selphidComponentLight1RO9AnimationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A16_anim_tip_customyA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A16_anim_tip_customyA2EmF",
+                "moduleName": "selphidComponentLight"
+              },
+              {
+                "kind": "Var",
+                "name": "selphid_anim_tuto_custom_1",
+                "printedName": "selphid_anim_tuto_custom_1",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(selphidComponentLight.R.Animation.Type) -> selphidComponentLight.R.Animation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animation",
+                        "printedName": "selphidComponentLight.R.Animation",
+                        "usr": "s:21selphidComponentLight1RO9AnimationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "selphidComponentLight.R.Animation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Animation",
+                            "printedName": "selphidComponentLight.R.Animation",
+                            "usr": "s:21selphidComponentLight1RO9AnimationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A19_anim_tuto_custom_1yA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A19_anim_tuto_custom_1yA2EmF",
+                "moduleName": "selphidComponentLight"
+              },
+              {
+                "kind": "Var",
+                "name": "selphid_anim_tuto_custom_2",
+                "printedName": "selphid_anim_tuto_custom_2",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(selphidComponentLight.R.Animation.Type) -> selphidComponentLight.R.Animation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animation",
+                        "printedName": "selphidComponentLight.R.Animation",
+                        "usr": "s:21selphidComponentLight1RO9AnimationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "selphidComponentLight.R.Animation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Animation",
+                            "printedName": "selphidComponentLight.R.Animation",
+                            "usr": "s:21selphidComponentLight1RO9AnimationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A19_anim_tuto_custom_2yA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A19_anim_tuto_custom_2yA2EmF",
+                "moduleName": "selphidComponentLight"
+              },
+              {
+                "kind": "Var",
+                "name": "selphid_anim_tuto_custom_3",
+                "printedName": "selphid_anim_tuto_custom_3",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(selphidComponentLight.R.Animation.Type) -> selphidComponentLight.R.Animation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Animation",
+                        "printedName": "selphidComponentLight.R.Animation",
+                        "usr": "s:21selphidComponentLight1RO9AnimationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "selphidComponentLight.R.Animation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Animation",
+                            "printedName": "selphidComponentLight.R.Animation",
+                            "usr": "s:21selphidComponentLight1RO9AnimationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:21selphidComponentLight1RO9AnimationO0A19_anim_tuto_custom_3yA2EmF",
+                "mangledName": "$s21selphidComponentLight1RO9AnimationO0A19_anim_tuto_custom_3yA2EmF",
                 "moduleName": "selphidComponentLight"
               },
               {
@@ -8682,6 +9236,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "core",
+        "printedName": "core",
+        "declKind": "Import",
+        "moduleName": "selphidComponentLight"
+      },
+      {
         "kind": "TypeDecl",
         "name": "SelphIDDocumentType",
         "printedName": "SelphIDDocumentType",
@@ -9204,16 +9765,6 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "selphidComponentLight"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "selphidComponentLight",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -10041,6 +10592,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1290,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/SelphIDController.swift",
       "kind": "StringLiteral",
       "offset": 271,
@@ -10079,13 +10637,13 @@
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 330,
-      "length": 8,
-      "value": "\"2.0.13\""
+      "length": 7,
+      "value": "\"2.1.4\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 372,
+      "offset": 371,
       "length": 18,
       "value": "\"com.facephi.demo\""
     },
