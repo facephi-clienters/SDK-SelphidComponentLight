@@ -5954,7 +5954,10 @@
                 "declKind": "EnumElement",
                 "usr": "s:21selphidComponentLight1RO9AnimationO0A15_anim_tuto_id_1yA2EmF",
                 "mangledName": "$s21selphidComponentLight1RO9AnimationO0A15_anim_tuto_id_1yA2EmF",
-                "moduleName": "selphidComponentLight"
+                "moduleName": "selphidComponentLight",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
               },
               {
                 "kind": "Var",
@@ -10913,7 +10916,7 @@
       "kind": "StringLiteral",
       "offset": 330,
       "length": 7,
-      "value": "\"2.2.5\""
+      "value": "\"2.2.6\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Constants.swift",
