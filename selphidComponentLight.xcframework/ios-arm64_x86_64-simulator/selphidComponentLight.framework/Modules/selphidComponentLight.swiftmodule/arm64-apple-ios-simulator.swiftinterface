@@ -190,6 +190,8 @@ public struct SelphIDResult {
   public var fingerprintImage: Foundation.Data?
   public var personalData: [Swift.String : Swift.String]?
   public var statistics: Swift.String?
+  public var countryCaptured: Swift.String?
+  public var documentTypeCaptured: selphidComponentLight.SelphIDDocumentType?
   public init()
 }
 public protocol INfcKeysProvider {
@@ -208,6 +210,7 @@ public enum SelphIDDocumentType : Swift.String, Swift.CaseIterable, Swift.Codabl
   case DRIVERS_LICENSE
   case FOREIGN_CARD
   case CREDIT_CARD
+  case VISA
   case CUSTOM
   public init?(rawValue: Swift.String)
   public typealias AllCases = [selphidComponentLight.SelphIDDocumentType]

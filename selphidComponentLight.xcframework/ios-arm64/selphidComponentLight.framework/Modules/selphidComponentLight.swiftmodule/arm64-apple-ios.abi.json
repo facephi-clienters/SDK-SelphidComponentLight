@@ -9261,6 +9261,226 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "countryCaptured",
+            "printedName": "countryCaptured",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21selphidComponentLight13SelphIDResultV15countryCapturedSSSgvp",
+            "mangledName": "$s21selphidComponentLight13SelphIDResultV15countryCapturedSSSgvp",
+            "moduleName": "selphidComponentLight",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight13SelphIDResultV15countryCapturedSSSgvg",
+                "mangledName": "$s21selphidComponentLight13SelphIDResultV15countryCapturedSSSgvg",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight13SelphIDResultV15countryCapturedSSSgvs",
+                "mangledName": "$s21selphidComponentLight13SelphIDResultV15countryCapturedSSSgvs",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight13SelphIDResultV15countryCapturedSSSgvM",
+                "mangledName": "$s21selphidComponentLight13SelphIDResultV15countryCapturedSSSgvM",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "documentTypeCaptured",
+            "printedName": "documentTypeCaptured",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "selphidComponentLight.SelphIDDocumentType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SelphIDDocumentType",
+                    "printedName": "selphidComponentLight.SelphIDDocumentType",
+                    "usr": "s:21selphidComponentLight19SelphIDDocumentTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21selphidComponentLight13SelphIDResultV20documentTypeCapturedAA0d10IDDocumentG0OSgvp",
+            "mangledName": "$s21selphidComponentLight13SelphIDResultV20documentTypeCapturedAA0d10IDDocumentG0OSgvp",
+            "moduleName": "selphidComponentLight",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "selphidComponentLight.SelphIDDocumentType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SelphIDDocumentType",
+                        "printedName": "selphidComponentLight.SelphIDDocumentType",
+                        "usr": "s:21selphidComponentLight19SelphIDDocumentTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight13SelphIDResultV20documentTypeCapturedAA0d10IDDocumentG0OSgvg",
+                "mangledName": "$s21selphidComponentLight13SelphIDResultV20documentTypeCapturedAA0d10IDDocumentG0OSgvg",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "selphidComponentLight.SelphIDDocumentType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SelphIDDocumentType",
+                        "printedName": "selphidComponentLight.SelphIDDocumentType",
+                        "usr": "s:21selphidComponentLight19SelphIDDocumentTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight13SelphIDResultV20documentTypeCapturedAA0d10IDDocumentG0OSgvs",
+                "mangledName": "$s21selphidComponentLight13SelphIDResultV20documentTypeCapturedAA0d10IDDocumentG0OSgvs",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21selphidComponentLight13SelphIDResultV20documentTypeCapturedAA0d10IDDocumentG0OSgvM",
+                "mangledName": "$s21selphidComponentLight13SelphIDResultV20documentTypeCapturedAA0d10IDDocumentG0OSgvM",
+                "moduleName": "selphidComponentLight",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -9729,6 +9949,43 @@
             "declKind": "EnumElement",
             "usr": "s:21selphidComponentLight19SelphIDDocumentTypeO11CREDIT_CARDyA2CmF",
             "mangledName": "$s21selphidComponentLight19SelphIDDocumentTypeO11CREDIT_CARDyA2CmF",
+            "moduleName": "selphidComponentLight"
+          },
+          {
+            "kind": "Var",
+            "name": "VISA",
+            "printedName": "VISA",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(selphidComponentLight.SelphIDDocumentType.Type) -> selphidComponentLight.SelphIDDocumentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SelphIDDocumentType",
+                    "printedName": "selphidComponentLight.SelphIDDocumentType",
+                    "usr": "s:21selphidComponentLight19SelphIDDocumentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "selphidComponentLight.SelphIDDocumentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SelphIDDocumentType",
+                        "printedName": "selphidComponentLight.SelphIDDocumentType",
+                        "usr": "s:21selphidComponentLight19SelphIDDocumentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21selphidComponentLight19SelphIDDocumentTypeO4VISAyA2CmF",
+            "mangledName": "$s21selphidComponentLight19SelphIDDocumentTypeO4VISAyA2CmF",
             "moduleName": "selphidComponentLight"
           },
           {
@@ -11027,6 +11284,13 @@
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
       "kind": "StringLiteral",
       "offset": 1261,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1306,
       "length": 2,
       "value": "\"\""
     }
