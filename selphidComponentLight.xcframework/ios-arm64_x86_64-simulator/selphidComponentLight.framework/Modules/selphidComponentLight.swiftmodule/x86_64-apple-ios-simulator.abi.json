@@ -11172,13 +11172,13 @@
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 330,
-      "length": 7,
-      "value": "\"2.2.9\""
+      "length": 8,
+      "value": "\"2.2.11\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 371,
+      "offset": 372,
       "length": 18,
       "value": "\"com.facephi.demo\""
     },
