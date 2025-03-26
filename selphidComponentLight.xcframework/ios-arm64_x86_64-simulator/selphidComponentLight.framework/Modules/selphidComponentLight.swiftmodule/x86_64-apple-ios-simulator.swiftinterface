@@ -14,42 +14,14 @@ import licenseCheckerComponent
 extension Foundation.Bundle {
   public static var selphidBundle: Foundation.Bundle
 }
-extension selphidComponentLight.R {
-  public enum Animation : Swift.String, Swift.CaseIterable {
-    case selphid_anim_tip
-    case selphid_anim_tip_mrz
-    case selphid_anim_tip_id_male
-    case selphid_anim_tip_id_female
-    case selphid_anim_tip_pass_male
-    case selphid_anim_tip_pass_female
-    case selphid_anim_tip_driver_male
-    case selphid_anim_tip_driver_female
-    case selphid_anim_tip_health_mad
-    case selphid_anim_tip_custom
-    case selphid_anim_tuto_id_1
-    case selphid_anim_tuto_id_2
-    case selphid_anim_tuto_id_3
-    case selphid_anim_tuto_pass_1
-    case selphid_anim_tuto_pass_2
-    case selphid_anim_tuto_pass_3
-    case selphid_anim_tuto_driving_1
-    case selphid_anim_tuto_driving_2
-    case selphid_anim_tuto_driving_3
-    case selphid_anim_tuto_health_mad_1
-    case selphid_anim_tuto_health_mad_2
-    case selphid_anim_tuto_health_mad_3
-    case selphid_anim_tuto_custom_1
-    case selphid_anim_tuto_custom_2
-    case selphid_anim_tuto_custom_3
-    public init?(rawValue: Swift.String)
-    public typealias AllCases = [selphidComponentLight.R.Animation]
-    public typealias RawValue = Swift.String
-    nonisolated public static var allCases: [selphidComponentLight.R.Animation] {
-      get
-    }
-    public var rawValue: Swift.String {
-      get
-    }
+public enum SelphIDError : Swift.String {
+  case RESOURCES_FILE_NOT_FOUND
+  case COULD_NOT_CREATE_WIDGET_INSTANCE
+  case CONSUMED_BY_LICENSE_ERROR
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
   }
 }
 public struct SelphIDConfigurationData : Swift.Codable {
@@ -61,8 +33,8 @@ public struct SelphIDConfigurationData : Swift.Codable {
   public var specificData: Swift.String?
   public var documentType: selphidComponentLight.SelphIDDocumentType
   public var showDiagnostic: Swift.Bool?
+  public var showPreviousTip: Swift.Bool?
   public var debug: Swift.Bool?
-  public var tutorialOnly: Swift.Bool?
   public var tokenImageQuality: Swift.Float?
   public var locale: Swift.String?
   public var documentSide: selphidComponentLight.SelphIDDocumentSide
@@ -72,98 +44,83 @@ public struct SelphIDConfigurationData : Swift.Codable {
   public var viewsContent: Swift.String?
   public var documentModels: Swift.String?
   public var params: [Swift.String : Swift.String]?
-  public var models: Swift.String?
   public var fullscreen: Swift.Bool?
   public var videoFilename: Swift.String?
   public var tokenPreviousCaptureData: Swift.String?
   public var vibrationEnabled: Swift.Bool?
-  public var showPreviousTip: Swift.Bool?
+  public var tutorialOnly: Swift.Bool?
   public init()
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public enum SelphIDScanMode : Swift.String, Swift.Codable {
-  case MODE_GENERIC
-  case MODE_SPECIFIC
-  case MODE_SEARCH
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public enum SelphIDDocumentSide : Swift.String, Swift.Codable {
+public enum SelphIDDocumentSide : Swift.String, Swift.Codable, Swift.CaseIterable {
   case FRONT
   case BACK
   case ALL
   public init?(rawValue: Swift.String)
+  public typealias AllCases = [selphidComponentLight.SelphIDDocumentSide]
   public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [selphidComponentLight.SelphIDDocumentSide] {
+    get
+  }
   public var rawValue: Swift.String {
     get
   }
 }
-@objc public class SelphIDController : ObjectiveC.NSObject {
-  public var license: Swift.String
-  public var trackingController: (any core.ITrackingController)?
-  public var behaviorController: (any core.IBehaviorController)?
-  public var statusController: (any core.IStatusController)?
-  public var tokenizeController: (any core.ITokenizeController)?
-  public var flowController: (any core.IFlowController)?
-  public init(data: selphidComponentLight.SelphIDConfigurationData?, output: @escaping (core.SdkResult<selphidComponentLight.SelphIDResult>) -> (), viewController: UIKit.UIViewController)
-  public func tokenize(data: Swift.String) -> core.SdkResult<Swift.String>
-  public static func getPreviewImagesWhenTimeout() -> (front: UIKit.UIImage?, back: UIKit.UIImage?)
+public enum SelphIDTimeout : Swift.String, Swift.Codable, Swift.CaseIterable {
+  case SHORT
+  case MEDIUM
+  case LONG
+  case VERY_LONG
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [selphidComponentLight.SelphIDTimeout]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [selphidComponentLight.SelphIDTimeout] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum SelphIDDocumentType : Swift.String, Swift.CaseIterable, Swift.Codable {
+  case ID_CARD
+  case PASSPORT
+  case DRIVERS_LICENSE
+  case FOREIGN_CARD
+  case CREDIT_CARD
+  case VISA
+  case CUSTOM
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [selphidComponentLight.SelphIDDocumentType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [selphidComponentLight.SelphIDDocumentType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class AnalyticsManager {
+  public var output: core.AnalyticsOutput?
+  public static var shared: selphidComponentLight.AnalyticsManager
+  public func sendInfo(time: Swift.Double, component: Swift.String, type: core.EventType, info: Swift.String)
+  public func sendInfo(component: Swift.String, type: core.EventType, info: Swift.String)
+  public func sendInfo(component: Swift.String, type: core.EventType)
   @objc deinit
 }
-extension selphidComponentLight.SelphIDController : core.ITrackableController {
-  public var trackingStep: Swift.String {
-    get
-  }
-}
-extension selphidComponentLight.SelphIDController : core.IMethodableController {
-  public func start(operationController: any core.IOperationableController)
-}
-extension selphidComponentLight.SelphIDController : core.IFlowableController {
-  public var flowStep: Swift.String {
-    get
-  }
-  public var dataString: Swift.String? {
-    get
-    set(newValue)
-  }
-  public var customization: core.CommonCustomization? {
-    get
-    set(newValue)
-  }
-}
-extension selphidComponentLight.SelphIDController : FPhiSelphIDWidgetiOS.FPhiSelphIDWidgetProtocol {
-  @objc dynamic public func captureFinished()
-  @objc dynamic public func captureCancelled()
-  @objc dynamic public func captureTimeout()
-  @objc dynamic public func captureFailed(_ error: (any Swift.Error)!)
-  @objc dynamic public func onEvent(_ time: Foundation.Date!, type: Swift.String!, info: Swift.String!)
-}
-public enum SelphIDError : Swift.String {
-  case RESOURCES_FILE_NOT_FOUND
-  case COULD_NOT_CREATE_WIDGET_INSTANCE
+public enum SelphIDScanMode : Swift.String, Swift.Codable, Swift.CaseIterable {
+  case MODE_GENERIC
+  case MODE_SPECIFIC
+  case MODE_SEARCH
   public init?(rawValue: Swift.String)
+  public typealias AllCases = [selphidComponentLight.SelphIDScanMode]
   public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [selphidComponentLight.SelphIDScanMode] {
+    get
+  }
   public var rawValue: Swift.String {
     get
   }
-}
-public protocol ThemeSelphidProtocol {
-  var name: Swift.String { get }
-  var animations: [selphidComponentLight.R.Animation : Swift.String] { get }
-}
-extension selphidComponentLight.ThemeSelphidProtocol {
-  public var animations: [selphidComponentLight.R.Animation : Swift.String] {
-    get
-  }
-}
-public enum Constants {
-  public static let libraryPackageVersion: Swift.String
-}
-public enum R {
 }
 public struct SelphIDResult {
   public var ocrResults: [Swift.String : Swift.String]?
@@ -204,53 +161,120 @@ extension selphidComponentLight.SelphIDResult : selphidComponentLight.INfcKeysPr
   public func getBirthDate() -> Swift.String?
   public func getExpiryDate() -> Swift.String?
 }
-public enum SelphIDDocumentType : Swift.String, Swift.CaseIterable, Swift.Codable {
-  case ID_CARD
-  case PASSPORT
-  case DRIVERS_LICENSE
-  case FOREIGN_CARD
-  case CREDIT_CARD
-  case VISA
-  case CUSTOM
-  public init?(rawValue: Swift.String)
-  public typealias AllCases = [selphidComponentLight.SelphIDDocumentType]
-  public typealias RawValue = Swift.String
-  nonisolated public static var allCases: [selphidComponentLight.SelphIDDocumentType] {
+extension selphidComponentLight.R {
+  public enum Animation : Swift.String, Swift.CaseIterable {
+    case selphid_anim_tip
+    case selphid_anim_tip_mrz
+    case selphid_anim_tip_id_male
+    case selphid_anim_tip_id_female
+    case selphid_anim_tip_pass_male
+    case selphid_anim_tip_pass_female
+    case selphid_anim_tip_driver_male
+    case selphid_anim_tip_driver_female
+    case selphid_anim_tip_health_mad
+    case selphid_anim_tip_custom
+    case selphid_anim_tuto_id_1
+    case selphid_anim_tuto_id_2
+    case selphid_anim_tuto_id_3
+    case selphid_anim_tuto_pass_1
+    case selphid_anim_tuto_pass_2
+    case selphid_anim_tuto_pass_3
+    case selphid_anim_tuto_driving_1
+    case selphid_anim_tuto_driving_2
+    case selphid_anim_tuto_driving_3
+    case selphid_anim_tuto_health_mad_1
+    case selphid_anim_tuto_health_mad_2
+    case selphid_anim_tuto_health_mad_3
+    case selphid_anim_tuto_custom_1
+    case selphid_anim_tuto_custom_2
+    case selphid_anim_tuto_custom_3
+    public init?(rawValue: Swift.String)
+    public typealias AllCases = [selphidComponentLight.R.Animation]
+    public typealias RawValue = Swift.String
+    nonisolated public static var allCases: [selphidComponentLight.R.Animation] {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
+@objc public class SelphIDController : ObjectiveC.NSObject {
+  public var license: Swift.String
+  public var trackingController: (any core.ITrackingController)?
+  public var behaviorController: (any core.IBehaviorController)?
+  public var statusController: (any core.IStatusController)?
+  public var tokenizeController: (any core.ITokenizeController)?
+  public var flowController: (any core.IFlowController)?
+  public init(data: selphidComponentLight.SelphIDConfigurationData?, output: @escaping (core.SdkResult<selphidComponentLight.SelphIDResult>) -> (), viewController: UIKit.UIViewController)
+  public func tokenize(data: Swift.String) -> core.SdkResult<Swift.String>
+  public static func getPreviewImagesWhenTimeout() -> (front: UIKit.UIImage?, back: UIKit.UIImage?)
+  @objc deinit
+}
+extension selphidComponentLight.SelphIDController : core.ITrackableController {
+  public var trackingStep: Swift.String {
     get
   }
-  public var rawValue: Swift.String {
+}
+extension selphidComponentLight.SelphIDController : core.IMethodableController {
+  public var analyticsOutput: core.AnalyticsOutput? {
+    get
+    set(newValue)
+  }
+  public func start(operationController: any core.IOperationableController)
+}
+extension selphidComponentLight.SelphIDController : core.IFlowableController {
+  public var flowStep: Swift.String {
     get
   }
+  public var dataString: Swift.String? {
+    get
+    set(newValue)
+  }
+  public var customization: core.CommonCustomization? {
+    get
+    set(newValue)
+  }
+}
+extension selphidComponentLight.SelphIDController : FPhiSelphIDWidgetiOS.FPhiSelphIDWidgetProtocol {
+  @objc dynamic public func captureFinished()
+  @objc dynamic public func captureCancelled()
+  @objc dynamic public func captureTimeout()
+  @objc dynamic public func captureFailed(_ error: (any Swift.Error)!)
+  @objc dynamic public func onEvent(_ time: Foundation.Date!, type: Swift.String!, info: Swift.String!)
+}
+public protocol ThemeSelphidProtocol {
+  var name: Swift.String { get }
+  var animations: [selphidComponentLight.R.Animation : Swift.String] { get }
+}
+extension selphidComponentLight.ThemeSelphidProtocol {
+  public var animations: [selphidComponentLight.R.Animation : Swift.String] {
+    get
+  }
+}
+public enum Constants {
+  public static let libraryPackageVersion: Swift.String
+}
+public enum R {
 }
 public enum ThemeSelphidManager {
   public static func setup(theme: any selphidComponentLight.ThemeSelphidProtocol)
 }
-public enum SelphIDTimeout : Swift.String, Swift.Codable {
-  case SHORT
-  case MEDIUM
-  case LONG
-  case VERY_LONG
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-extension selphidComponentLight.R.Animation : Swift.Equatable {}
-extension selphidComponentLight.R.Animation : Swift.Hashable {}
-extension selphidComponentLight.R.Animation : Swift.RawRepresentable {}
-extension selphidComponentLight.SelphIDScanMode : Swift.Equatable {}
-extension selphidComponentLight.SelphIDScanMode : Swift.Hashable {}
-extension selphidComponentLight.SelphIDScanMode : Swift.RawRepresentable {}
-extension selphidComponentLight.SelphIDDocumentSide : Swift.Equatable {}
-extension selphidComponentLight.SelphIDDocumentSide : Swift.Hashable {}
-extension selphidComponentLight.SelphIDDocumentSide : Swift.RawRepresentable {}
 extension selphidComponentLight.SelphIDError : Swift.Equatable {}
 extension selphidComponentLight.SelphIDError : Swift.Hashable {}
 extension selphidComponentLight.SelphIDError : Swift.RawRepresentable {}
-extension selphidComponentLight.SelphIDDocumentType : Swift.Equatable {}
-extension selphidComponentLight.SelphIDDocumentType : Swift.Hashable {}
-extension selphidComponentLight.SelphIDDocumentType : Swift.RawRepresentable {}
+extension selphidComponentLight.SelphIDDocumentSide : Swift.Equatable {}
+extension selphidComponentLight.SelphIDDocumentSide : Swift.Hashable {}
+extension selphidComponentLight.SelphIDDocumentSide : Swift.RawRepresentable {}
 extension selphidComponentLight.SelphIDTimeout : Swift.Equatable {}
 extension selphidComponentLight.SelphIDTimeout : Swift.Hashable {}
 extension selphidComponentLight.SelphIDTimeout : Swift.RawRepresentable {}
+extension selphidComponentLight.SelphIDDocumentType : Swift.Equatable {}
+extension selphidComponentLight.SelphIDDocumentType : Swift.Hashable {}
+extension selphidComponentLight.SelphIDDocumentType : Swift.RawRepresentable {}
+extension selphidComponentLight.SelphIDScanMode : Swift.Equatable {}
+extension selphidComponentLight.SelphIDScanMode : Swift.Hashable {}
+extension selphidComponentLight.SelphIDScanMode : Swift.RawRepresentable {}
+extension selphidComponentLight.R.Animation : Swift.Equatable {}
+extension selphidComponentLight.R.Animation : Swift.Hashable {}
+extension selphidComponentLight.R.Animation : Swift.RawRepresentable {}
