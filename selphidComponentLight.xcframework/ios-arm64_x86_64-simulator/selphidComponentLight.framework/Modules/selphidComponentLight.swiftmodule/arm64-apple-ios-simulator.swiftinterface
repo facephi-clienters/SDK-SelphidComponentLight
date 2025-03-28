@@ -36,7 +36,6 @@ public struct SelphIDConfigurationData : Swift.Codable {
   public var showPreviousTip: Swift.Bool?
   public var debug: Swift.Bool?
   public var tokenImageQuality: Swift.Float?
-  public var locale: Swift.String?
   public var documentSide: selphidComponentLight.SelphIDDocumentSide
   public var timeout: selphidComponentLight.SelphIDTimeout
   public var generateRawImages: Swift.Bool?

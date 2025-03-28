@@ -1259,8 +1259,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1447,116 +1446,6 @@
                 "declKind": "Accessor",
                 "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV17tokenImageQualitySfSgvM",
                 "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV17tokenImageQualitySfSgvM",
-                "moduleName": "selphidComponentLight",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "locale",
-            "printedName": "locale",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV6localeSSSgvp",
-            "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV6localeSSSgvp",
-            "moduleName": "selphidComponentLight",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV6localeSSSgvg",
-                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV6localeSSSgvg",
-                "moduleName": "selphidComponentLight",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV6localeSSSgvs",
-                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV6localeSSSgvs",
-                "moduleName": "selphidComponentLight",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21selphidComponentLight24SelphIDConfigurationDataV6localeSSSgvM",
-                "mangledName": "$s21selphidComponentLight24SelphIDConfigurationDataV6localeSSSgvM",
                 "moduleName": "selphidComponentLight",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -11909,28 +11798,28 @@
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
       "kind": "BooleanLiteral",
-      "offset": 670,
+      "offset": 730,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
       "kind": "BooleanLiteral",
-      "offset": 927,
+      "offset": 922,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
       "kind": "BooleanLiteral",
-      "offset": 1255,
+      "offset": 1250,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/SelphIDConfigurationData.swift",
       "kind": "BooleanLiteral",
-      "offset": 1302,
+      "offset": 1297,
       "length": 5,
       "value": "false"
     },
@@ -11944,210 +11833,210 @@
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 10212,
+      "offset": 10276,
       "length": 11,
       "value": "\"Tutorial1\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 10225,
+      "offset": 10289,
       "length": 50,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 10272,
+      "offset": 10336,
       "length": 2,
       "value": "\"_1\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 10285,
+      "offset": 10349,
       "length": 11,
       "value": "\"Tutorial2\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 10298,
+      "offset": 10362,
       "length": 50,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 10345,
+      "offset": 10409,
       "length": 2,
       "value": "\"_2\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 10358,
+      "offset": 10422,
       "length": 11,
       "value": "\"Tutorial3\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 10371,
+      "offset": 10435,
       "length": 50,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 10418,
+      "offset": 10482,
       "length": 2,
       "value": "\"_3\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 10431,
+      "offset": 10495,
       "length": 14,
       "value": "\"CaptureFront\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 10447,
+      "offset": 10511,
       "length": 48,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 10494,
+      "offset": 10558,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 10505,
+      "offset": 10569,
       "length": 13,
       "value": "\"CaptureBack\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 10520,
+      "offset": 10584,
       "length": 47,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 10566,
+      "offset": 10630,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 10577,
+      "offset": 10641,
       "length": 18,
       "value": "\"ShowResultsFront\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 10597,
+      "offset": 10661,
       "length": 53,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 10649,
+      "offset": 10713,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 10660,
+      "offset": 10724,
       "length": 17,
       "value": "\"ShowResultsBack\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 10679,
+      "offset": 10743,
       "length": 52,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 10730,
+      "offset": 10794,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 10797,
+      "offset": 10861,
       "length": 13,
       "value": "\"buttonRetry\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 10864,
+      "offset": 10928,
       "length": 12,
       "value": "\"buttonExit\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 10930,
+      "offset": 10994,
       "length": 12,
       "value": "\"buttonInfo\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 10995,
+      "offset": 11059,
       "length": 12,
       "value": "\"buttonBack\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 11064,
+      "offset": 11128,
       "length": 12,
       "value": "\"buttonNext\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 11132,
+      "offset": 11196,
       "length": 12,
       "value": "\"buttonDone\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 11231,
+      "offset": 11295,
       "length": 14,
       "value": "\"buttonAccept\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 11373,
+      "offset": 11437,
       "length": 14,
       "value": "\"ScreenChange\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Model\/DataParser.swift",
       "kind": "StringLiteral",
-      "offset": 11418,
+      "offset": 11482,
       "length": 7,
       "value": "\"Click\""
     },
