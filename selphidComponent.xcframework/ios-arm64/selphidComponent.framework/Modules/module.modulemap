@@ -1,0 +1,4 @@
+framework module selphidComponent {
+  header "selphidComponent-Swift.h"
+  requires objc
+}
