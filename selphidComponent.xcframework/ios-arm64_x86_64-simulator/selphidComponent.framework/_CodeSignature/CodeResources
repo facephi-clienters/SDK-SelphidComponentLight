@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/selphidComponent.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		lDDsiknbEG4dCxN1by3Tudis570=
+		4q+KO4maAalOqhNvl50wHFIahKM=
 		</data>
 		<key>Modules/selphidComponent.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/selphidComponent.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Vb0t9G0yq8MGP0Qj5pTdVmmKtHE=
+		1POsYROJXMxX5aYBZDkIREDUg6k=
 		</data>
 		<key>Modules/selphidComponent.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		lDDsiknbEG4dCxN1by3Tudis570=
+		4q+KO4maAalOqhNvl50wHFIahKM=
 		</data>
 		<key>Modules/selphidComponent.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/selphidComponent.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8w39Et7B9C2WgtyiJ9LyuOh5fCg=
+		JDLE0Fc2evNTwotlFSw5LyH+SOc=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -101,7 +101,7 @@
 		</dict>
 		<key>fphi-selphid-widget-resources-selphid-1.0.zip</key>
 		<data>
-		q0ZWsYJE2xJeOdF+1UohCSfXznA=
+		mpg8JfjondhWK0UnxGmBGY++C08=
 		</data>
 		<key>pt-BR.lproj/SelphidLocalizable.strings</key>
 		<dict>
@@ -247,7 +247,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1KUYGVoaTaCoNjGlwaaQFlXVRO4h5Rfqgf0siPMBx4E=
+			aqbEAWWfXHakKYMjDlGlV3jm076y+hgiupGM7s/clYk=
 			</data>
 		</dict>
 		<key>Modules/selphidComponent.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -275,14 +275,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uYzQlhsKURuQ9j8YpIiNKYk/VpxBGE1nB2jAjCFRdUI=
+			8k3CTcUVKFtjjU3rNTu/378f+4qulqBDVnhk5T5t3CY=
 			</data>
 		</dict>
 		<key>Modules/selphidComponent.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1KUYGVoaTaCoNjGlwaaQFlXVRO4h5Rfqgf0siPMBx4E=
+			aqbEAWWfXHakKYMjDlGlV3jm076y+hgiupGM7s/clYk=
 			</data>
 		</dict>
 		<key>Modules/selphidComponent.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -310,7 +310,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			X+ogi9xnEZ1ncducgZOrdTWB9Zu/9xoDNNNxXEB31Js=
+			lsurSQZGBfNeEbS9RPYmkX2yLn/doo3H0wzrvdAU8Go=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
@@ -351,7 +351,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0DZoD7di4wTVZrBYM4c7Hs8teulISM5/uy4IqjlTreI=
+			hPw4jNIKU3FfqaXy/KrsjZJj5Rxzk5LXgjwRczQkq5U=
 			</data>
 		</dict>
 		<key>pt-BR.lproj/SelphidLocalizable.strings</key>
