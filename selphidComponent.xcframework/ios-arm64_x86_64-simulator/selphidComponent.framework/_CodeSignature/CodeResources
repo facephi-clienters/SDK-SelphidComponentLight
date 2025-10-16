@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/selphidComponent.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		dXY9wTwOBj/4Yt1qGSBLRkpMyUc=
+		JvOBE8C+0dZOL+02smMVAk+rFvE=
 		</data>
 		<key>Modules/selphidComponent.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		BwL+WYXHN9fS+/YQRbUvuI1ek1g=
+		d0kliyzhzkKQiqYnyxo4RgiGOCs=
 		</data>
 		<key>Modules/selphidComponent.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,19 +42,19 @@
 		</data>
 		<key>Modules/selphidComponent.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BwL+WYXHN9fS+/YQRbUvuI1ek1g=
+		d0kliyzhzkKQiqYnyxo4RgiGOCs=
 		</data>
 		<key>Modules/selphidComponent.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8fBn+TJu3ARiFml+2AGRFwNeCys=
+		Eg5PMtyc0UH6IkrWjoxuFPNdC/k=
 		</data>
 		<key>Modules/selphidComponent.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		dXY9wTwOBj/4Yt1qGSBLRkpMyUc=
+		JvOBE8C+0dZOL+02smMVAk+rFvE=
 		</data>
 		<key>Modules/selphidComponent.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		73M4prIruPJC0jUDNUzJqDeJpQI=
+		dWR4t+3yQkunHZiSi2ZtkQY9tUw=
 		</data>
 		<key>Modules/selphidComponent.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Modules/selphidComponent.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		73M4prIruPJC0jUDNUzJqDeJpQI=
+		dWR4t+3yQkunHZiSi2ZtkQY9tUw=
 		</data>
 		<key>Modules/selphidComponent.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		U+LY+fuNWIXGxIoonosxHzTf3EI=
+		ttw7ZJz951EXdXQmKXUaEb2QBW8=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -76,7 +76,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QnVALIqyHDnVU6dP6DY78pAYCHA=
+			SBNXIK2sGIJrdlOO9LhXQbiYoBE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R1MwxvRMXU3lczf+T+SYcOIu2y4=
+			OhSdfGjvscJkIv8dCO2deotZEfo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -94,20 +94,20 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gORlwKSsleuY+nTsV3T9BQ55jRc=
+			puJ1sxLkaD7LvGj3Oel2a3xND4A=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>fphi-selphid-widget-resources-selphid-1.0.zip</key>
 		<data>
-		WQB/k8tPkWgHgOQDT96ncgcJ4oQ=
+		hw7iNmtlqBFEGSzDylZceHQtXWw=
 		</data>
 		<key>pt-BR.lproj/SelphidLocalizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DN1ZUb+R8f0MX1O+NgbnbDPSlXA=
+			sPqOEhI9k4d/B8xoWlyI87LEANk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -116,68 +116,60 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DN1ZUb+R8f0MX1O+NgbnbDPSlXA=
+			sPqOEhI9k4d/B8xoWlyI87LEANk=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>selphid_anim_tip.json</key>
-		<data>
-		9DLH//gpzYiyqGOLVPIO8aTpTow=
-		</data>
-		<key>selphid_anim_tip_driver_female.json</key>
-		<data>
-		UjEMXbjWUzP4oXJdDX/Akwr5feo=
-		</data>
-		<key>selphid_anim_tip_driver_male.json</key>
+		<key>selphid_anim_prev_tip_driver.json</key>
 		<data>
 		sNb4V37yHOTdfxiVMXCKbRIy3WU=
 		</data>
-		<key>selphid_anim_tip_health_mad.json</key>
+		<key>selphid_anim_prev_tip_health.json</key>
 		<data>
 		gm1ZnpjfabRtS+kBs5Y+RfkHx10=
 		</data>
-		<key>selphid_anim_tip_id_female.json</key>
+		<key>selphid_anim_prev_tip_id.json</key>
 		<data>
-		dtC6307DYKiIvzSWhap8K+Bars0=
+		OhvjVDRSCq7NcS8ADCuMx+/JF+s=
 		</data>
-		<key>selphid_anim_tip_id_male.json</key>
-		<data>
-		Xc59BGaCMROwvi8O7TItkVDUTM0=
-		</data>
-		<key>selphid_anim_tip_mrz.json</key>
+		<key>selphid_anim_prev_tip_mrz.json</key>
 		<data>
 		7Uj6UU2+RPyo7YKdA13OGlRNkb0=
+		</data>
+		<key>selphid_anim_prev_tip_pass.json</key>
+		<data>
+		3t17xawBpjWbDsNh4hURYBVexx8=
+		</data>
+		<key>selphid_anim_tip.json</key>
+		<data>
+		9DLH//gpzYiyqGOLVPIO8aTpTow=
 		</data>
 		<key>selphid_anim_tip_pass_female.json</key>
 		<data>
 		ah7MlnlSdBermYJeV1fpu6uxqEU=
 		</data>
-		<key>selphid_anim_tip_pass_male.json</key>
-		<data>
-		3t17xawBpjWbDsNh4hURYBVexx8=
-		</data>
 		<key>selphid_anim_tuto_driving_1.json</key>
 		<data>
-		SqFeg+0PK+idgGJ11E7pt1f8uSw=
+		lfbfjBP3/9IM6AjQ6shGu+TEIvY=
 		</data>
 		<key>selphid_anim_tuto_driving_2.json</key>
 		<data>
-		cRI4dT2YefjvKbXgue1FmDrkToY=
+		r+bShKHf5Jo3on54TYCfMbskG44=
 		</data>
 		<key>selphid_anim_tuto_driving_3.json</key>
 		<data>
-		MlOhq8MvT0/3OYgKypOgjM5k1/I=
+		0+8JhqsPVYDOH8r8FWMoiWbkfl0=
 		</data>
-		<key>selphid_anim_tuto_health_mad_1.json</key>
+		<key>selphid_anim_tuto_health_1.json</key>
 		<data>
 		VeXTQ+wfJn+lLcyWtpMHA71oCZ4=
 		</data>
-		<key>selphid_anim_tuto_health_mad_2.json</key>
+		<key>selphid_anim_tuto_health_2.json</key>
 		<data>
 		gsoHHQHR+x0LSxmRx+JQSOEW6jQ=
 		</data>
-		<key>selphid_anim_tuto_health_mad_3.json</key>
+		<key>selphid_anim_tuto_health_3.json</key>
 		<data>
 		CXqU9jRFljq0eauAOOCcvjaOwFo=
 		</data>
@@ -187,7 +179,7 @@
 		</data>
 		<key>selphid_anim_tuto_id_2.json</key>
 		<data>
-		3heAZkQ7OLI95eAQMpILvbM8z00=
+		86wyASzbFFPFeEXHJrD0DOpqObY=
 		</data>
 		<key>selphid_anim_tuto_id_3.json</key>
 		<data>
@@ -195,15 +187,15 @@
 		</data>
 		<key>selphid_anim_tuto_pass_1.json</key>
 		<data>
-		da2Uz8SY+7iHTRRMeXUwVOighfY=
+		TgxMkLYDcxMhS3KpP6+FZ6Xmfbk=
 		</data>
 		<key>selphid_anim_tuto_pass_2.json</key>
 		<data>
-		SKCUv0eAkhqPNGg3McTXpGtnN/U=
+		Ydt8EsE8RrXAXfxciv/7SEAuNVk=
 		</data>
 		<key>selphid_anim_tuto_pass_3.json</key>
 		<data>
-		6y0HIYti8ujLUFWtD1a/73MOM4A=
+		PeXVhILjOlHgwd4GjkhPbC5yVbc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -247,14 +239,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+mqLHB2LA1SLJubBcx5k469MYTLGNRpNXM1OROCuLNM=
+			UBK5Nbiyr9FhXkToSontZ7apR369JK/4WaQnX8ZEmvo=
 			</data>
 		</dict>
 		<key>Modules/selphidComponent.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8PcleO/b7fHITbkddswdh7dunSwquHO3EOBcc1D7TcU=
+			c41LzbyIQRbL4PP0ZS3pTY+gQNLC3N00teHG+Wq5yvI=
 			</data>
 		</dict>
 		<key>Modules/selphidComponent.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -268,28 +260,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8PcleO/b7fHITbkddswdh7dunSwquHO3EOBcc1D7TcU=
+			c41LzbyIQRbL4PP0ZS3pTY+gQNLC3N00teHG+Wq5yvI=
 			</data>
 		</dict>
 		<key>Modules/selphidComponent.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D36pHe9fIDGuenxvbVKOFcAWW0mUY5L0S0xNGp5w0fM=
+			5SVKZOgR9QlSLBnuGS0oH6HprOxJ5l2RbTE8gLwkmoo=
 			</data>
 		</dict>
 		<key>Modules/selphidComponent.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+mqLHB2LA1SLJubBcx5k469MYTLGNRpNXM1OROCuLNM=
+			UBK5Nbiyr9FhXkToSontZ7apR369JK/4WaQnX8ZEmvo=
 			</data>
 		</dict>
 		<key>Modules/selphidComponent.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+23Vl9ibyUC2i4JzEJT4Cw4a4UErzYaco/KPRJxa/mg=
+			90vTd0CJTNQ5HAWe4xEsJ8kGwBTcSFwQS8n2oWC9SdQ=
 			</data>
 		</dict>
 		<key>Modules/selphidComponent.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -303,14 +295,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+23Vl9ibyUC2i4JzEJT4Cw4a4UErzYaco/KPRJxa/mg=
+			90vTd0CJTNQ5HAWe4xEsJ8kGwBTcSFwQS8n2oWC9SdQ=
 			</data>
 		</dict>
 		<key>Modules/selphidComponent.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rkm5lAZWQmlhnBbWqkSaMP/goF0Vp3aSx3mKrBuoKnk=
+			hQPldnuQGzqvGj/5pqvRRg2fl9FW0GCI7Lxh4NH/39s=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
@@ -324,7 +316,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KgQgofeMCZ5jno+/Evliex3A48nw7Xuz4CAXUZZ7KTA=
+			gUY8jm/ChSHjyJDYyvHlJkXymV0+flRcDqLAjsIzz5k=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -333,7 +325,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xKYUcmRcgVba0hNRMV3zFNoxC9HCOuDA+Y1ZLcRwIds=
+			plnX5/PIMFxsmVG3t9crQq1YgxLB0RhOGTsEVZvADBE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -342,7 +334,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TDh5mSVCoA01t7v3DGfqgKi9MjHRr770PczwwQzhyNQ=
+			3J75Rjv6hwAAy3N0eTIFnFLbKxZ0yTuPAoPRmXblnrs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -351,14 +343,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mkEru0NLmDkNjb7ITaIxPeT46L4Ov8JGX09AP9+An+I=
+			DZLMqqM4lmHWDUQeImMeL8FPZulWNYZl+T2t3gxf/NI=
 			</data>
 		</dict>
 		<key>pt-BR.lproj/SelphidLocalizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e1K+ZA+QocIazi4QiBbYciyxy0oVoKdepSaByfM29Cg=
+			WVrk1ma6RtlFecsBq2roJ3lCbf1sKQycQzUCagpNarY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -367,58 +359,51 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e1K+ZA+QocIazi4QiBbYciyxy0oVoKdepSaByfM29Cg=
+			WVrk1ma6RtlFecsBq2roJ3lCbf1sKQycQzUCagpNarY=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>selphid_anim_tip.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kJY+MlhJ4QnSkqRZZBF7D0ZC/uZBT4miwOS8xnucZ9s=
-			</data>
-		</dict>
-		<key>selphid_anim_tip_driver_female.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			G77cHihX3MU/Q/HwzhLjot+yckbFz9MJtOK5BmUIE6c=
-			</data>
-		</dict>
-		<key>selphid_anim_tip_driver_male.json</key>
+		<key>selphid_anim_prev_tip_driver.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			kVN/E4JchVNjByhtvnWJmxE1vmNUwondZqRYyLw8ulw=
 			</data>
 		</dict>
-		<key>selphid_anim_tip_health_mad.json</key>
+		<key>selphid_anim_prev_tip_health.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			5BYxLv3J+j6RiKh3ds991nY1NSjCf/yDN9kWqiMIRSo=
 			</data>
 		</dict>
-		<key>selphid_anim_tip_id_female.json</key>
+		<key>selphid_anim_prev_tip_id.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e44AzUiyjgMUnGG9fUHPsTgY/8I21z7B7ZtlPV4DzK8=
+			tRnTEazkO0huF01AM59w7G2M2fAWhIeKg8LExd640iU=
 			</data>
 		</dict>
-		<key>selphid_anim_tip_id_male.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bH9WC4YvCoGl44ncyL3rFqIQS69fhuRAjmU4Kv57fng=
-			</data>
-		</dict>
-		<key>selphid_anim_tip_mrz.json</key>
+		<key>selphid_anim_prev_tip_mrz.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			uVFYRC7Rbq7knEl8hSCMZL/WwBoFUPzgJCSUyzY0OdY=
+			</data>
+		</dict>
+		<key>selphid_anim_prev_tip_pass.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Fv6YcTm35DRGnoEGmoCuHf3azKbE4Xyl0K4pzzhZh+Y=
+			</data>
+		</dict>
+		<key>selphid_anim_tip.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kJY+MlhJ4QnSkqRZZBF7D0ZC/uZBT4miwOS8xnucZ9s=
 			</data>
 		</dict>
 		<key>selphid_anim_tip_pass_female.json</key>
@@ -428,49 +413,42 @@
 			Pv2+WhWeYQJRA86tD7+khDjynpd7qH5sC0BDFW1SIHI=
 			</data>
 		</dict>
-		<key>selphid_anim_tip_pass_male.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Fv6YcTm35DRGnoEGmoCuHf3azKbE4Xyl0K4pzzhZh+Y=
-			</data>
-		</dict>
 		<key>selphid_anim_tuto_driving_1.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b3FP1XXv0Bqka20zVIvpgdFukwJv9PoUE+6tgJsj2Oc=
+			q0hqZUMYMb++LuM0VYHUXUmoH0u+i/zmruDs3zwYaeo=
 			</data>
 		</dict>
 		<key>selphid_anim_tuto_driving_2.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h7v5bMFPBNVxrXZoHrgRQO4LMr9eupyHOTBeOK3IVFM=
+			88wM8f9Mb7ae4JEukGVmFfC9CG45dGshATSnpr9DcAk=
 			</data>
 		</dict>
 		<key>selphid_anim_tuto_driving_3.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UskgvBR99YDa4B4a6h2KD6sHRmVXBojpdzgdrNF6snU=
+			hscEaEyCTouc5AU253KTOE/KEMVNyAvI2sJtvvLdiNU=
 			</data>
 		</dict>
-		<key>selphid_anim_tuto_health_mad_1.json</key>
+		<key>selphid_anim_tuto_health_1.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			5SLzOF6VKSfBVB5PIAFaeK07FF4G6OHVN+eiTZ90Mso=
 			</data>
 		</dict>
-		<key>selphid_anim_tuto_health_mad_2.json</key>
+		<key>selphid_anim_tuto_health_2.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			22zl3CcpabCK24kckDCRNASNsIzU1XuIiENMKTyc85I=
 			</data>
 		</dict>
-		<key>selphid_anim_tuto_health_mad_3.json</key>
+		<key>selphid_anim_tuto_health_3.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
@@ -488,7 +466,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zh5sPlfqiD6h9DEHdAr2ipHLuy8l7eK9RzoE9nHg+hQ=
+			ipQQs28ncuBKgCMDvpExlUlx5LCtNeJqlxwQ6p87UHg=
 			</data>
 		</dict>
 		<key>selphid_anim_tuto_id_3.json</key>
@@ -502,21 +480,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SkEmyFqDZS8CZEqmiu2kuf9q/pc0rLTs/lU957owAuU=
+			1FUfd7pfssp3NDu7e2akf2MEWmoKUvftr2wkpUrZ2Lo=
 			</data>
 		</dict>
 		<key>selphid_anim_tuto_pass_2.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nPmgflb5jAd+3uIiI7gFMVr9i10F8G2v/Grf+VfpOxY=
+			LdfdSqlo0Fq47lx0A73KKvEOYmyUTjnx8vEI4sE/35Q=
 			</data>
 		</dict>
 		<key>selphid_anim_tuto_pass_3.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qCa8y3OB6jUrWAuVBfxZUppqtOxhkKDS1qeeaY0+gZ8=
+			JuCzXcwAXysEkfTvJDAklbmFoQYrbE9loOT+lB3TYEI=
 			</data>
 		</dict>
 	</dict>
