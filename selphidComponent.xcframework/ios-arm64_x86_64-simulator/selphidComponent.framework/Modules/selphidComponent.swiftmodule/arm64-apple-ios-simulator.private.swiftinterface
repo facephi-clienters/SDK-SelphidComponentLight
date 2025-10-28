@@ -14,91 +14,6 @@ import licenseCheckerComponent
 extension Foundation.Bundle {
   public static var selphidBundle: Foundation.Bundle
 }
-public enum SelphIDError : Swift.String {
-  case RESOURCES_FILE_NOT_FOUND
-  case COULD_NOT_CREATE_WIDGET_INSTANCE
-  case CONSUMED_BY_LICENSE_ERROR
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public struct SelphIDConfigurationData : Swift.Codable {
-  public var resourcesPath: Swift.String?
-  public var wizardMode: Swift.Bool?
-  public var showResultAfterCapture: Swift.Bool?
-  public var showTutorial: Swift.Bool?
-  public var scanMode: selphidComponent.SelphIDScanMode
-  public var specificData: Swift.String?
-  public var documentType: selphidComponent.SelphIDDocumentType
-  public var showDiagnostic: Swift.Bool?
-  public var showPreviousTip: Swift.Bool?
-  public var debug: Swift.Bool?
-  public var tokenImageQuality: Swift.Float?
-  public var documentSide: selphidComponent.SelphIDDocumentSide
-  public var timeout: selphidComponent.SelphIDTimeout
-  public var generateRawImages: Swift.Bool?
-  public var translationsContent: Swift.String?
-  public var viewsContent: Swift.String?
-  public var documentModels: Swift.String?
-  public var params: [Swift.String : Swift.String]?
-  public var fullscreen: Swift.Bool?
-  public var videoFilename: Swift.String?
-  public var tokenPreviousCaptureData: Swift.String?
-  public var vibrationEnabled: Swift.Bool?
-  public var tutorialOnly: Swift.Bool?
-  public init()
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public enum SelphIDDocumentSide : Swift.String, Swift.Codable, Swift.CaseIterable {
-  case FRONT
-  case BACK
-  case ALL
-  public init?(rawValue: Swift.String)
-  public typealias AllCases = [selphidComponent.SelphIDDocumentSide]
-  public typealias RawValue = Swift.String
-  nonisolated public static var allCases: [selphidComponent.SelphIDDocumentSide] {
-    get
-  }
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public enum SelphIDTimeout : Swift.String, Swift.Codable, Swift.CaseIterable {
-  case SHORT
-  case MEDIUM
-  case LONG
-  case VERY_LONG
-  public init?(rawValue: Swift.String)
-  public typealias AllCases = [selphidComponent.SelphIDTimeout]
-  public typealias RawValue = Swift.String
-  nonisolated public static var allCases: [selphidComponent.SelphIDTimeout] {
-    get
-  }
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public enum SelphIDDocumentType : Swift.String, Swift.CaseIterable, Swift.Codable {
-  case ID_CARD
-  case PASSPORT
-  case DRIVERS_LICENSE
-  case FOREIGN_CARD
-  case CREDIT_CARD
-  case VISA
-  case CUSTOM
-  public init?(rawValue: Swift.String)
-  public typealias AllCases = [selphidComponent.SelphIDDocumentType]
-  public typealias RawValue = Swift.String
-  nonisolated public static var allCases: [selphidComponent.SelphIDDocumentType] {
-    get
-  }
-  public var rawValue: Swift.String {
-    get
-  }
-}
 @_hasMissingDesignatedInitializers public class AnalyticsManager {
   public var output: core.AnalyticsOutput?
   public static var shared: selphidComponent.AnalyticsManager
@@ -106,59 +21,6 @@ public enum SelphIDDocumentType : Swift.String, Swift.CaseIterable, Swift.Codabl
   public func sendInfo(component: Swift.String, type: core.EventType, info: Swift.String)
   public func sendInfo(component: Swift.String, type: core.EventType)
   @objc deinit
-}
-public enum SelphIDScanMode : Swift.String, Swift.Codable, Swift.CaseIterable {
-  case MODE_GENERIC
-  case MODE_SPECIFIC
-  case MODE_SEARCH
-  public init?(rawValue: Swift.String)
-  public typealias AllCases = [selphidComponent.SelphIDScanMode]
-  public typealias RawValue = Swift.String
-  nonisolated public static var allCases: [selphidComponent.SelphIDScanMode] {
-    get
-  }
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public struct SelphIDResult {
-  public var ocrResults: [Swift.String : Swift.String]?
-  public var tokenBackDocument: Swift.String
-  public var tokenFrontDocument: Swift.String
-  public var tokenFaceImage: Swift.String
-  public var tokenOCR: Swift.String
-  public var documentCaptured: Swift.String?
-  public var matchingSidesScore: Swift.Double
-  public var captureProgress: Swift.Int
-  public var tokenRawFrontDocument: Swift.String?
-  public var tokenRawBackDocument: Swift.String?
-  public var frontDocumentImage: Swift.String
-  public var faceImage: Swift.String
-  public var backDocumentImage: Swift.String
-  public var rawFrontDocument: Swift.String?
-  public var rawFrontDocumentData: Foundation.Data?
-  public var rawBackDocument: Swift.String?
-  public var rawBackDocumentData: Foundation.Data?
-  public var frontDocumentData: Foundation.Data?
-  public var backDocumentData: Foundation.Data?
-  public var faceImageData: Foundation.Data?
-  public var signatureImage: Foundation.Data?
-  public var fingerprintImage: Foundation.Data?
-  public var personalData: [Swift.String : Swift.String]?
-  public var statistics: Swift.String?
-  public var countryCaptured: Swift.String?
-  public var documentTypeCaptured: selphidComponent.SelphIDDocumentType?
-  public init()
-}
-public protocol INfcKeysProvider {
-  func getNfcKey() -> Swift.String?
-  func getBirthDate() -> Swift.String?
-  func getExpiryDate() -> Swift.String?
-}
-extension selphidComponent.SelphIDResult : selphidComponent.INfcKeysProvider {
-  public func getNfcKey() -> Swift.String?
-  public func getBirthDate() -> Swift.String?
-  public func getExpiryDate() -> Swift.String?
 }
 extension selphidComponent.R {
   public enum Animation : Swift.String, Swift.CaseIterable {
@@ -204,7 +66,6 @@ extension selphidComponent.R {
   public var stepData: core.StepData?
   public init(data: selphidComponent.SelphIDConfigurationData?, output: @escaping (core.SdkResult<selphidComponent.SelphIDResult>) -> (), viewController: UIKit.UIViewController)
   public func tokenize(data: Swift.String) -> core.SdkResult<Swift.String>
-  public static func getPreviewImagesWhenTimeout() -> (front: UIKit.UIImage?, back: UIKit.UIImage?)
   @objc deinit
 }
 extension selphidComponent.SelphIDController : core.ITrackableController {
@@ -251,26 +112,335 @@ extension selphidComponent.ThemeSelphidProtocol {
 public enum Constants {
   public static let libraryPackageVersion: Swift.String
 }
+public enum SelphIDDocumentSide : Swift.String, Swift.Codable, Swift.CaseIterable {
+  case FRONT
+  case BACK
+  case ALL
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [selphidComponent.SelphIDDocumentSide]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [selphidComponent.SelphIDDocumentSide] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct URNFC : Swift.Codable {
+  public var field: Swift.String
+  public var value: Swift.String
+  public var alphabet: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct URMRZ : Swift.Codable {
+  public var side: Swift.Int
+  public var confidence: Swift.Double?
+  public var raw: Swift.String
+  public var fields: [Swift.String : Swift.String]
+  public var region: selphidComponent.URRegion?
+  public init?(side: Swift.Int, ocrResults: [Swift.String : Swift.String])
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct SelphIDConfigurationData : Swift.Codable {
+  public var resourcesPath: Swift.String?
+  public var wizardMode: Swift.Bool?
+  public var showResultAfterCapture: Swift.Bool?
+  public var showTutorial: Swift.Bool?
+  public var scanMode: selphidComponent.SelphIDScanMode
+  public var specificData: Swift.String?
+  public var documentType: selphidComponent.SelphIDDocumentType
+  public var showDiagnostic: Swift.Bool?
+  public var showPreviousTip: Swift.Bool?
+  public var debug: Swift.Bool?
+  public var tokenImageQuality: Swift.Float?
+  public var documentSide: selphidComponent.SelphIDDocumentSide
+  public var timeout: selphidComponent.SelphIDTimeout
+  public var generateRawImages: Swift.Bool?
+  public var translationsContent: Swift.String?
+  public var viewsContent: Swift.String?
+  public var documentModels: Swift.String?
+  public var params: [Swift.String : Swift.String]?
+  public var videoFilename: Swift.String?
+  public var tokenPreviousCaptureData: Swift.String?
+  public var vibrationEnabled: Swift.Bool?
+  public var saveNfcParams: Swift.Bool?
+  public var tutorialOnly: Swift.Bool?
+  public init()
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct URImage : Swift.Codable {
+  public var type: selphidComponent.URImageType
+  public var side: Swift.Int?
+  public var source: selphidComponent.URSourceType
+  public var content: selphidComponent.URImageContent?
+  public var region: selphidComponent.URRegion?
+  public init?(key: Swift.String, region: selphidComponent.URRegion?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum URImageType : Swift.String, Swift.Codable {
+  case portrait
+  case ghost
+  case signature
+  case fullFrame
+  case document
+  case fingerprint
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct URImageContent : Swift.Codable {
+  public var data: Swift.String
+  public var length: Swift.Int
+  public var mime_type: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct URChecks : Swift.Codable {
+  public var field_inconsistency: [selphidComponent.FieldInconsistency]?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct FieldInconsistency : Swift.Codable {
+  public var field: Swift.String
+  public var values: [Swift.String]?
+  public var distance: Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct URRegion : Swift.Codable {
+  public var top_left: selphidComponent.URCoordinates
+  public var top_right: selphidComponent.URCoordinates
+  public var bottom_left: selphidComponent.URCoordinates
+  public var bottom_right: selphidComponent.URCoordinates
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct URCoordinates : Swift.Codable {
+  public var x: Swift.Float
+  public var y: Swift.Float
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct URViz : Swift.Codable {
+  public var field: Swift.String
+  public var value: Swift.String
+  public var side: Swift.Int
+  public var confidence: Swift.Double?
+  public var alphabet: Swift.String?
+  public var region: selphidComponent.URRegion?
+  public init?(key: Swift.String, value: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct SelphIDResult {
+  public var ocrResults: [Swift.String : Swift.String]?
+  public var tokenBackDocument: Swift.String
+  public var tokenFrontDocument: Swift.String
+  public var tokenFaceImage: Swift.String
+  public var tokenOCR: Swift.String
+  public var documentCaptured: Swift.String?
+  public var matchingSidesScore: Swift.Double
+  public var captureProgress: Swift.Int
+  public var tokenRawFrontDocument: Swift.String?
+  public var tokenRawBackDocument: Swift.String?
+  public var frontDocumentImage: Swift.String
+  public var faceImage: Swift.String
+  public var backDocumentImage: Swift.String
+  public var rawFrontDocument: Swift.String?
+  public var rawFrontDocumentData: Foundation.Data?
+  public var rawBackDocument: Swift.String?
+  public var rawBackDocumentData: Foundation.Data?
+  public var frontDocumentData: Foundation.Data?
+  public var backDocumentData: Foundation.Data?
+  public var faceImageData: Foundation.Data?
+  public var signatureImage: Foundation.Data?
+  public var fingerprintImage: Foundation.Data?
+  public var personalData: [Swift.String : Swift.String]?
+  public var statistics: Swift.String?
+  public var countryCaptured: Swift.String?
+  public var documentTypeCaptured: selphidComponent.SelphIDDocumentType?
+  public var ocrUr: selphidComponent.URDocumentResult?
+  public var capturedSides: Swift.Int
+  public init()
+}
+public protocol INfcKeysProvider {
+  func getNfcKey() -> Swift.String?
+  func getBirthDate() -> Swift.String?
+  func getExpiryDate() -> Swift.String?
+}
+extension selphidComponent.SelphIDResult : selphidComponent.INfcKeysProvider {
+  public func getNfcKey() -> Swift.String?
+  public func getBirthDate() -> Swift.String?
+  public func getExpiryDate() -> Swift.String?
+}
+public enum SelphIDDocumentType : Swift.String, Swift.CaseIterable, Swift.Codable {
+  case ID_CARD
+  case PASSPORT
+  case DRIVERS_LICENSE
+  case FOREIGN_CARD
+  case CREDIT_CARD
+  case VISA
+  case CUSTOM
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [selphidComponent.SelphIDDocumentType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [selphidComponent.SelphIDDocumentType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct UREncoded : Swift.Codable {
+  public var fields: [Swift.String : Swift.String]
+  public var type: selphidComponent.UREncodedType
+  public var side: Swift.Int
+  public var raw: Swift.String
+  public var rawBinary: Swift.String
+  public var region: selphidComponent.URRegion?
+  public init?(type: selphidComponent.UREncodedType, ocrResults: [Swift.String : Swift.String])
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum UREncodedType : Swift.String, Swift.CaseIterable, Swift.Codable {
+  case qr
+  case barcode
+  case pdf
+  public var widgetKey: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [selphidComponent.UREncodedType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [selphidComponent.UREncodedType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum SelphIDTimeout : Swift.String, Swift.Codable, Swift.CaseIterable {
+  case SHORT
+  case MEDIUM
+  case LONG
+  case VERY_LONG
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [selphidComponent.SelphIDTimeout]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [selphidComponent.SelphIDTimeout] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum SelphIDError : Swift.String, Swift.Equatable {
+  case RESOURCES_FILE_NOT_FOUND
+  case INITIALIZATION_ERROR
+  case CONSUMED_BY_LICENSE_ERROR
+  case BAD_CONFIGURATION_ERROR
+  case WIDGET_RESULT_DATA_ERROR
+  case BAD_EXTRACTOR_CONFIGURATION_ERROR
+  case CONTROL_NOT_INITIALIZED_ERROR
+  case EXTRACTION_LICENSE_ERROR
+  case HARDWARE_ERROR
+  case SETTINGS_PERMISSION_ERROR
+  case UNEXPECTED_CAPTURE_ERROR
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum SelphIDScanMode : Swift.String, Swift.Codable, Swift.CaseIterable {
+  case MODE_GENERIC
+  case MODE_SPECIFIC
+  case MODE_SEARCH
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [selphidComponent.SelphIDScanMode]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [selphidComponent.SelphIDScanMode] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct URDocumentResult : Swift.Codable {
+  public var version: Swift.Int
+  public var type: Swift.String
+  public var model: Swift.String
+  public var ocr: [Swift.String : selphidComponent.UROCRField]
+  public var images: [selphidComponent.URImage]?
+  public var viz: [selphidComponent.URViz]
+  public var mrz: [selphidComponent.URMRZ]?
+  public var encoded: [selphidComponent.UREncoded]?
+  public var nfc: [selphidComponent.URNFC]?
+  public var checks: selphidComponent.URChecks
+  public init(ocrResults: [Swift.String : Swift.String], images: [Swift.String : selphidComponent.URRegion?])
+  public func toString() -> Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct UROCRField : Swift.Codable {
+  public var value: Swift.String
+  public var confidence: Swift.Double?
+  public var source: selphidComponent.UROCRSource?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct UROCRSource : Swift.Codable {
+  public var type: selphidComponent.URSourceType
+  public var index: Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum URSourceType : Swift.String, Swift.Codable {
+  case viz
+  case encoded
+  case nfc
+  case mrz
+  public init?(widgetType: Swift.String)
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public enum R {
 }
 public enum ThemeSelphidManager {
   public static func setup(theme: any selphidComponent.ThemeSelphidProtocol)
 }
-extension selphidComponent.SelphIDError : Swift.Equatable {}
-extension selphidComponent.SelphIDError : Swift.Hashable {}
-extension selphidComponent.SelphIDError : Swift.RawRepresentable {}
-extension selphidComponent.SelphIDDocumentSide : Swift.Equatable {}
-extension selphidComponent.SelphIDDocumentSide : Swift.Hashable {}
-extension selphidComponent.SelphIDDocumentSide : Swift.RawRepresentable {}
-extension selphidComponent.SelphIDTimeout : Swift.Equatable {}
-extension selphidComponent.SelphIDTimeout : Swift.Hashable {}
-extension selphidComponent.SelphIDTimeout : Swift.RawRepresentable {}
-extension selphidComponent.SelphIDDocumentType : Swift.Equatable {}
-extension selphidComponent.SelphIDDocumentType : Swift.Hashable {}
-extension selphidComponent.SelphIDDocumentType : Swift.RawRepresentable {}
-extension selphidComponent.SelphIDScanMode : Swift.Equatable {}
-extension selphidComponent.SelphIDScanMode : Swift.Hashable {}
-extension selphidComponent.SelphIDScanMode : Swift.RawRepresentable {}
 extension selphidComponent.R.Animation : Swift.Equatable {}
 extension selphidComponent.R.Animation : Swift.Hashable {}
 extension selphidComponent.R.Animation : Swift.RawRepresentable {}
+extension selphidComponent.SelphIDDocumentSide : Swift.Equatable {}
+extension selphidComponent.SelphIDDocumentSide : Swift.Hashable {}
+extension selphidComponent.SelphIDDocumentSide : Swift.RawRepresentable {}
+extension selphidComponent.URImageType : Swift.Equatable {}
+extension selphidComponent.URImageType : Swift.Hashable {}
+extension selphidComponent.URImageType : Swift.RawRepresentable {}
+extension selphidComponent.SelphIDDocumentType : Swift.Equatable {}
+extension selphidComponent.SelphIDDocumentType : Swift.Hashable {}
+extension selphidComponent.SelphIDDocumentType : Swift.RawRepresentable {}
+extension selphidComponent.UREncodedType : Swift.Equatable {}
+extension selphidComponent.UREncodedType : Swift.Hashable {}
+extension selphidComponent.UREncodedType : Swift.RawRepresentable {}
+extension selphidComponent.SelphIDTimeout : Swift.Equatable {}
+extension selphidComponent.SelphIDTimeout : Swift.Hashable {}
+extension selphidComponent.SelphIDTimeout : Swift.RawRepresentable {}
+extension selphidComponent.SelphIDError : Swift.Hashable {}
+extension selphidComponent.SelphIDError : Swift.RawRepresentable {}
+extension selphidComponent.SelphIDScanMode : Swift.Equatable {}
+extension selphidComponent.SelphIDScanMode : Swift.Hashable {}
+extension selphidComponent.SelphIDScanMode : Swift.RawRepresentable {}
+extension selphidComponent.URSourceType : Swift.Equatable {}
+extension selphidComponent.URSourceType : Swift.Hashable {}
+extension selphidComponent.URSourceType : Swift.RawRepresentable {}
