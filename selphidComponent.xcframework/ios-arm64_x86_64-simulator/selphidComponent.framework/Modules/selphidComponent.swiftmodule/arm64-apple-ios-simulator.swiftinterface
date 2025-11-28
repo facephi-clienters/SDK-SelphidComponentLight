@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name selphidComponent
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import FPhiSelphIDWidgetiOS
 import Foundation
 import Swift
@@ -45,7 +45,9 @@ extension selphidComponent.R {
     case selphid_anim_tuto_custom_1
     case selphid_anim_tuto_custom_2
     case selphid_anim_tuto_custom_3
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias AllCases = [selphidComponent.R.Animation]
     public typealias RawValue = Swift.String
     nonisolated public static var allCases: [selphidComponent.R.Animation] {
@@ -64,7 +66,9 @@ extension selphidComponent.R {
   public var tokenizeController: (any core.ITokenizeController)?
   public var flowController: (any core.IFlowController)?
   public var stepData: core.StepData?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(data: selphidComponent.SelphIDConfigurationData?, output: @escaping (core.SdkResult<selphidComponent.SelphIDResult>) -> (), viewController: UIKit.UIViewController)
+  #endif
   public func tokenize(data: Swift.String) -> core.SdkResult<Swift.String>
   @objc deinit
 }
@@ -74,31 +78,41 @@ extension selphidComponent.SelphIDController : core.ITrackableController {
   }
 }
 extension selphidComponent.SelphIDController : core.IMethodableController {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var analyticsOutput: core.AnalyticsOutput? {
     get
     set(newValue)
   }
+  #endif
   public func start(operationController: any core.IOperationableController)
 }
 extension selphidComponent.SelphIDController : core.IFlowableController {
   public var flowStep: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var dataString: Swift.String? {
     get
     set(newValue)
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var customization: core.CommonCustomization? {
     get
     set(newValue)
   }
+  #endif
 }
 extension selphidComponent.SelphIDController : FPhiSelphIDWidgetiOS.FPhiSelphIDWidgetProtocol {
   @objc dynamic public func captureFinished()
   @objc dynamic public func captureCancelled()
   @objc dynamic public func captureTimeout()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc dynamic public func captureFailed(_ error: (any Swift.Error)!)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc dynamic public func onEvent(_ time: Foundation.Date!, type: Swift.String!, info: Swift.String!)
+  #endif
 }
 public protocol ThemeSelphidProtocol {
   var name: Swift.String { get }
@@ -116,7 +130,9 @@ public enum SelphIDDocumentSide : Swift.String, Swift.Codable, Swift.CaseIterabl
   case FRONT
   case BACK
   case ALL
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [selphidComponent.SelphIDDocumentSide]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [selphidComponent.SelphIDDocumentSide] {
@@ -139,7 +155,9 @@ public struct URMRZ : Swift.Codable {
   public var raw: Swift.String
   public var fields: [Swift.String : Swift.String]
   public var region: selphidComponent.URRegion?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(side: Swift.Int, ocrResults: [Swift.String : Swift.String])
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -177,7 +195,9 @@ public struct URImage : Swift.Codable {
   public var source: selphidComponent.URSourceType
   public var content: selphidComponent.URImageContent?
   public var region: selphidComponent.URRegion?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(key: Swift.String, region: selphidComponent.URRegion?)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -188,7 +208,9 @@ public enum URImageType : Swift.String, Swift.Codable {
   case fullFrame
   case document
   case fingerprint
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -234,7 +256,9 @@ public struct URViz : Swift.Codable {
   public var confidence: Swift.Double?
   public var alphabet: Swift.String?
   public var region: selphidComponent.URRegion?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(key: Swift.String, value: Swift.String)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -270,14 +294,26 @@ public struct SelphIDResult {
   public init()
 }
 public protocol INfcKeysProvider {
+  #if compiler(>=5.3) && $NonescapableTypes
   func getNfcKey() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func getBirthDate() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func getExpiryDate() -> Swift.String?
+  #endif
 }
 extension selphidComponent.SelphIDResult : selphidComponent.INfcKeysProvider {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getNfcKey() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getBirthDate() -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getExpiryDate() -> Swift.String?
+  #endif
 }
 public enum SelphIDDocumentType : Swift.String, Swift.CaseIterable, Swift.Codable {
   case ID_CARD
@@ -287,7 +323,9 @@ public enum SelphIDDocumentType : Swift.String, Swift.CaseIterable, Swift.Codabl
   case CREDIT_CARD
   case VISA
   case CUSTOM
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [selphidComponent.SelphIDDocumentType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [selphidComponent.SelphIDDocumentType] {
@@ -304,7 +342,9 @@ public struct UREncoded : Swift.Codable {
   public var raw: Swift.String
   public var rawBinary: Swift.String
   public var region: selphidComponent.URRegion?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(type: selphidComponent.UREncodedType, ocrResults: [Swift.String : Swift.String])
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -315,7 +355,9 @@ public enum UREncodedType : Swift.String, Swift.CaseIterable, Swift.Codable {
   public var widgetKey: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [selphidComponent.UREncodedType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [selphidComponent.UREncodedType] {
@@ -330,7 +372,9 @@ public enum SelphIDTimeout : Swift.String, Swift.Codable, Swift.CaseIterable {
   case MEDIUM
   case LONG
   case VERY_LONG
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [selphidComponent.SelphIDTimeout]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [selphidComponent.SelphIDTimeout] {
@@ -352,7 +396,9 @@ public enum SelphIDError : Swift.String, Swift.Equatable {
   case HARDWARE_ERROR
   case SETTINGS_PERMISSION_ERROR
   case UNEXPECTED_CAPTURE_ERROR
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -362,7 +408,9 @@ public enum SelphIDScanMode : Swift.String, Swift.Codable, Swift.CaseIterable {
   case MODE_GENERIC
   case MODE_SPECIFIC
   case MODE_SEARCH
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [selphidComponent.SelphIDScanMode]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [selphidComponent.SelphIDScanMode] {
@@ -383,8 +431,12 @@ public struct URDocumentResult : Swift.Codable {
   public var encoded: [selphidComponent.UREncoded]?
   public var nfc: [selphidComponent.URNFC]?
   public var checks: selphidComponent.URChecks
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(ocrResults: [Swift.String : Swift.String], images: [Swift.String : selphidComponent.URRegion?])
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func toString() -> Swift.String?
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -406,8 +458,12 @@ public enum URSourceType : Swift.String, Swift.Codable {
   case encoded
   case nfc
   case mrz
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(widgetType: Swift.String)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get

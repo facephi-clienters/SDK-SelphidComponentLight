@@ -20113,6 +20113,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       }
@@ -20237,7 +20244,7 @@
       "kind": "StringLiteral",
       "offset": 386,
       "length": 7,
-      "value": "\"2.4.3\""
+      "value": "\"2.4.4\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Constants.swift",
