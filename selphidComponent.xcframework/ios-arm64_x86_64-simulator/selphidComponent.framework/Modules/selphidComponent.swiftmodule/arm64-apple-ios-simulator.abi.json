@@ -2247,17 +2247,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "IAnalyzableController",
-            "printedName": "IAnalyzableController",
-            "usr": "s:4core21IAnalyzableControllerP",
-            "mangledName": "$s4core21IAnalyzableControllerP"
-          },
-          {
-            "kind": "Conformance",
             "name": "IStartableController",
             "printedName": "IStartableController",
             "usr": "s:4core20IStartableControllerP",
             "mangledName": "$s4core20IStartableControllerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ITokenizableController",
+            "printedName": "ITokenizableController",
+            "usr": "s:4core22ITokenizableControllerP",
+            "mangledName": "$s4core22ITokenizableControllerP"
           },
           {
             "kind": "Conformance",
@@ -2268,10 +2268,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "ITokenizableController",
-            "printedName": "ITokenizableController",
-            "usr": "s:4core22ITokenizableControllerP",
-            "mangledName": "$s4core22ITokenizableControllerP"
+            "name": "IAnalyzableController",
+            "printedName": "IAnalyzableController",
+            "usr": "s:4core21IAnalyzableControllerP",
+            "mangledName": "$s4core21IAnalyzableControllerP"
           },
           {
             "kind": "Conformance",
@@ -20103,13 +20103,6 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       }
