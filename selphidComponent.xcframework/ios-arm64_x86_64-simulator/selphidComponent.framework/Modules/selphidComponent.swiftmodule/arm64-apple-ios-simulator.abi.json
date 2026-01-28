@@ -13236,6 +13236,36 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDocType",
+            "printedName": "getDocType()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16selphidComponent13SelphIDResultV10getDocTypeSSSgyF",
+            "mangledName": "$s16selphidComponent13SelphIDResultV10getDocTypeSSSgyF",
+            "moduleName": "selphidComponent",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -13357,6 +13387,36 @@
             "declKind": "Func",
             "usr": "s:16selphidComponent16INfcKeysProviderP13getExpiryDateSSSgyF",
             "mangledName": "$s16selphidComponent16INfcKeysProviderP13getExpiryDateSSSgyF",
+            "moduleName": "selphidComponent",
+            "genericSig": "<τ_0_0 where τ_0_0 : selphidComponent.INfcKeysProvider>",
+            "sugared_genericSig": "<Self where Self : selphidComponent.INfcKeysProvider>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDocType",
+            "printedName": "getDocType()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16selphidComponent16INfcKeysProviderP10getDocTypeSSSgyF",
+            "mangledName": "$s16selphidComponent16INfcKeysProviderP10getDocTypeSSSgyF",
             "moduleName": "selphidComponent",
             "genericSig": "<τ_0_0 where τ_0_0 : selphidComponent.INfcKeysProvider>",
             "sugared_genericSig": "<Self where Self : selphidComponent.INfcKeysProvider>",
@@ -20227,7 +20287,7 @@
       "kind": "StringLiteral",
       "offset": 386,
       "length": 7,
-      "value": "\"2.5.0\""
+      "value": "\"2.5.1\""
     },
     {
       "filePath": "\/Users\/jenkins\/actions-runner\/_work\/SDK-SelphidComponent\/SDK-SelphidComponent\/Sources\/selphidComponent\/Constants.swift",

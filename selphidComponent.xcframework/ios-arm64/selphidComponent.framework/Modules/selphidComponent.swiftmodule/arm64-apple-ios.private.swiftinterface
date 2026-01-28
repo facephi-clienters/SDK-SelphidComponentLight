@@ -273,11 +273,13 @@ public protocol INfcKeysProvider {
   func getNfcKey() -> Swift.String?
   func getBirthDate() -> Swift.String?
   func getExpiryDate() -> Swift.String?
+  func getDocType() -> Swift.String?
 }
 extension selphidComponent.SelphIDResult : selphidComponent.INfcKeysProvider {
   public func getNfcKey() -> Swift.String?
   public func getBirthDate() -> Swift.String?
   public func getExpiryDate() -> Swift.String?
+  public func getDocType() -> Swift.String?
 }
 public enum SelphIDDocumentType : Swift.String, Swift.CaseIterable, Swift.Codable {
   case ID_CARD
