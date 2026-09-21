@@ -15,8 +15,8 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/facephi-clienters/selphidnoml-framework.git", .upToNextMinor(from: "1.41.4")),
-        .package(url: "https://github.com/facephi-clienters/SDK-CorePackage-SPM.git", .exactItem("2.11.0")),
+        .package(url: "https://github.com/facephi-clienters/selphidnoml-framework.git", .upToNextMinor(from: "1.41.5")),
+        .package(url: "https://github.com/facephi-clienters/SDK-CorePackage-SPM.git", .exactItem("2.12.0")),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -30,7 +30,7 @@ let package = Package(
             ],
             resources: [.process("Resources")]),
         .binaryTarget(name: "selphidComponent",
-        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/SDK/FPHISDKSelphIDComponentLight/2.11.0/selphidComponent.zip",
-        checksum: "1d2a8b844e4841260d7a62baf37e0457568941cb8459cd2bb9c4a079f076d86a")
+        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/SDK/FPHISDKSelphIDComponentLight/2.12.0/selphidComponent.zip",
+        checksum: "33e37f993f11c6daf164c8ef91174511dce1769e9311a8aa4c9c30f93a935e8c")
     ]
 )
