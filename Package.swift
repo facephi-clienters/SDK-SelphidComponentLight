@@ -30,7 +30,7 @@ let package = Package(
             ],
             resources: [.process("Resources")]),
         .binaryTarget(name: "selphidComponent",
-        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/SDK/FPHISDKSelphIDComponentLight/2.12.1/selphidComponent.zip",
-        checksum: "92cec113823f30ada8d74212f2b5050755f72a1c824ffd1b4ccb649bd9f573af")
+        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/SDK/FPHISDKSelphIDComponentLight/2.12.2/selphidComponent.zip",
+        checksum: "16d6ec5490b8d0b5356698539a69e12798317e995a510e836e472e54018bacd6")
     ]
 )
